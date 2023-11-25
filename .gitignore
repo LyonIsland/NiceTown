@@ -55,8 +55,8 @@ NiceTown_client/*.mdb.meta
 # Unity3D Art files
 NiceTown_client/[Aa]ssets/Art
 
-# Unity3D generated file on crash reports
-NiceTown_client/sysinfo.txt
+# Unity3D generated file on crash reports,暂时共享
+# NiceTown_client/sysinfo.txt
 
 # Builds
 NiceTown_client/*.apk
