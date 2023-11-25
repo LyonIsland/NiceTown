@@ -52,6 +52,9 @@ NiceTown_client/*.pidb.meta
 NiceTown_client/*.pdb.meta
 NiceTown_client/*.mdb.meta
 
+# Unity3D Art files
+NiceTown_client/[Aa]ssets/Art
+
 # Unity3D generated file on crash reports
 NiceTown_client/sysinfo.txt
 
