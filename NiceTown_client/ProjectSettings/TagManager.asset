@@ -41,3 +41,36 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Grond Bottom
+    uniqueID: 1224877269
+    locked: 0
+  - name: Grond Middle
+    uniqueID: 1203849341
+    locked: 0
+  - name: Grond Top
+    uniqueID: 743612787
+    locked: 0
+  - name: Stuff1
+    uniqueID: 2794231157
+    locked: 0
+  - name: Stuff2
+    uniqueID: 1040606051
+    locked: 0
+  - name: Dig
+    uniqueID: 947560503
+    locked: 0
+  - name: Water
+    uniqueID: 1106178853
+    locked: 0
+  - name: Instance
+    uniqueID: 1755420869
+    locked: 0
+  - name: Front1
+    uniqueID: 1695743263
+    locked: 0
+  - name: Front2
+    uniqueID: 923574203
+    locked: 0
+  - name: Collision
+    uniqueID: 821676071
+    locked: 0
