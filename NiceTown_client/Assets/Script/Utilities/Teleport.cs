@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace Client.Transition
 {
-    public class CoroutineExample : MonoBehaviour
+    public class Teleport : MonoBehaviour
     {
         private string sceneName;
         public Vector3 positionToGo;
