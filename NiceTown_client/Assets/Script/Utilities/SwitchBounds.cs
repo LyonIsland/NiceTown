@@ -4,6 +4,17 @@ using UnityEngine;
 public class SwitchBounds : MonoBehaviour
 {
     //TODO: 切换场景调用
+    private void OnEnable()
+    {
+        EventHandler.TransitionEvent += event2;
+    }
+
+    private void event2(string arg1, Vector3 arg2)
+    {
+        print("注册的第二个事件");
+    }
+
+
     private void Start()
     {
         SwitchConfinerShape();

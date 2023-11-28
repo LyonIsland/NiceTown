@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PersistentSence.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/01_Field.unity
+    guid: 56aa7c4c059aef34b89667057b2b0b8c
+  - enabled: 1
+    path: Assets/Scenes/02_Home.unity
+    guid: cfedc14da75b2094c9435047b85ee7ac
   m_configObjects: {}
