@@ -7,8 +7,8 @@ namespace Client.Transition
 {
     public class TransitionManager : MonoBehaviour
     {
-        public string startSceneName = string.Empty;
-
+        public string startScene = string.Empty;
+        private string currentScence;
         private void OnEnable()
         {
             EventHandler.TransitionEvent += OnTransitionEvent;
@@ -21,7 +21,8 @@ namespace Client.Transition
         }
         private void Start()
         {
-            StartCoroutine(LoadSceneSetActive(startSceneName));
+            currentScence = startScene;
+            StartCoroutine(LoadSceneSetActive(startScene));
         }
 
         private void OnTransitionEvent(string targetScene, Vector3 targetPos)
@@ -31,16 +32,19 @@ namespace Client.Transition
 
         private IEnumerator LoadSceneSetActive(string sceneName)
         {
-            yield return SceneManager.UnloadSceneAsync(SceneManager.sceneCount - 1);
             yield return SceneManager.LoadSceneAsync(sceneName, LoadSceneMode.Additive);
+
             Scene newScene = SceneManager.GetSceneAt(SceneManager.sceneCount - 1);
+
             SceneManager.SetActiveScene(newScene);
         }
 
         private IEnumerator Transition(string sceneName, Vector3 targetPosition)
         {
+            EventHandler.CallBeforeSceneUnloadEvent();
             yield return SceneManager.UnloadSceneAsync(SceneManager.GetActiveScene());
             yield return LoadSceneSetActive(sceneName);
+            EventHandler.CallAfterSceneUnloadEvent();
         }
     }
 }

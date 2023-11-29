@@ -11,4 +11,19 @@ public class EventHandler : MonoBehaviour
     {
         TransitionEvent?.Invoke(sceneName, pos);
     }
+
+    public static event Action BeforeSceneloadedEvent;
+
+    public static void CallBeforeSceneUnloadEvent()
+    {
+        BeforeSceneloadedEvent?.Invoke();
+    }
+
+    public static event Action AfterSceneloadedEvent;
+
+    public static void CallAfterSceneUnloadEvent()
+    {
+        AfterSceneloadedEvent?.Invoke();
+    }
 }
+
