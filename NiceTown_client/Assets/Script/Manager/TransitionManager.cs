@@ -35,16 +35,16 @@ namespace Client.Transition
             yield return SceneManager.LoadSceneAsync(sceneName, LoadSceneMode.Additive);
 
             Scene newScene = SceneManager.GetSceneAt(SceneManager.sceneCount - 1);
-
             SceneManager.SetActiveScene(newScene);
+            EventHandler.CallAfterSceneloadEvent();
         }
 
         private IEnumerator Transition(string sceneName, Vector3 targetPosition)
-        {
-            EventHandler.CallBeforeSceneUnloadEvent();
+        { 
+            EventHandler.CallBeforeSceneloadEvent();
             yield return SceneManager.UnloadSceneAsync(SceneManager.GetActiveScene());
             yield return LoadSceneSetActive(sceneName);
-            EventHandler.CallAfterSceneUnloadEvent();
+            
         }
     }
 }

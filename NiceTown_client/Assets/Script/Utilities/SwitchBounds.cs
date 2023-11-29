@@ -15,7 +15,8 @@ public class SwitchBounds : MonoBehaviour
     }
     private void SwitchConfinerShape()
     {
-        print(GameObject.FindGameObjectWithTag("BoundsConfiner"));
+
+        print("!!"+GameObject.FindGameObjectWithTag("BoundsConfiner").transform.name);
         PolygonCollider2D confinerShape = GameObject.FindGameObjectWithTag("BoundsConfiner").GetComponent<PolygonCollider2D>();
         CinemachineConfiner confiner = GetComponent <CinemachineConfiner> ();
         confiner.m_BoundingShape2D = confinerShape;

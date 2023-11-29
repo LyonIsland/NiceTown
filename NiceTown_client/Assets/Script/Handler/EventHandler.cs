@@ -14,14 +14,14 @@ public class EventHandler : MonoBehaviour
 
     public static event Action BeforeSceneloadedEvent;
 
-    public static void CallBeforeSceneUnloadEvent()
+    public static void CallBeforeSceneloadEvent()
     {
         BeforeSceneloadedEvent?.Invoke();
     }
 
     public static event Action AfterSceneloadedEvent;
 
-    public static void CallAfterSceneUnloadEvent()
+    public static void CallAfterSceneloadEvent()
     {
         AfterSceneloadedEvent?.Invoke();
     }
