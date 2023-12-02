@@ -5,6 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - BoundsConfiner
+  - ItemParent
+  - CursorCanvas
+  - Dig
+  - Water
+  - CropParent
+  - MenuCanvas
   layers:
   - Default
   - TransparentFX
@@ -42,36 +48,36 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Grond Bottom
-    uniqueID: 1224877269
+  - name: Ground Bottom
+    uniqueID: 1907821229
     locked: 0
-  - name: Grond Middle
-    uniqueID: 1203849341
+  - name: Ground Mid
+    uniqueID: 714416005
     locked: 0
-  - name: Grond Top
-    uniqueID: 743612787
+  - name: Ground Top
+    uniqueID: 2922850171
     locked: 0
   - name: Stuff1
-    uniqueID: 2794231157
+    uniqueID: 2432793771
     locked: 0
   - name: Stuff2
-    uniqueID: 1040606051
+    uniqueID: 4042529733
     locked: 0
   - name: Dig
-    uniqueID: 947560503
+    uniqueID: 770153281
     locked: 0
   - name: Water
-    uniqueID: 1106178853
+    uniqueID: 2612086853
     locked: 0
   - name: Instance
-    uniqueID: 1755420869
+    uniqueID: 52903185
     locked: 0
   - name: Front1
-    uniqueID: 1695743263
+    uniqueID: 3092175151
     locked: 0
   - name: Front2
-    uniqueID: 923574203
+    uniqueID: 1200403737
     locked: 0
   - name: Collision
-    uniqueID: 821676071
+    uniqueID: 2394819785
     locked: 0
