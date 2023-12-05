@@ -481,7 +481,7 @@ GameObject:
   - component: {fileID: 185097217}
   - component: {fileID: 185097216}
   m_Layer: 0
-  m_Name: // Grid Tilemap
+  m_Name: Grid Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -38031,7 +38031,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1004918011}
   m_Layer: 0
-  m_Name: $lights
+  m_Name: lights
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40304,7 +40304,7 @@ TilemapRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1376052711}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1

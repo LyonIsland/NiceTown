@@ -50,7 +50,8 @@ namespace MFarm.Transition
 
         private void Start()
         {
-            StartCoroutine(LoadSceneSetActive(startSceneName));
+            StartCoroutine(startScenceHandle(startSceneName));
+            //没有开始流程，先这样唤起启动event 
             fadeCanvasGroup = FindObjectOfType<CanvasGroup>();
         }
 
@@ -81,6 +82,18 @@ namespace MFarm.Transition
             yield return Fade(0);
         }
 
+        private IEnumerator startScenceHandle(string sceneName){
+            
+            //EventHandler.CallBeforeSceneUnloadEvent();
+            yield return SceneManager.LoadSceneAsync(sceneName, LoadSceneMode.Additive);
+
+            Scene newScene = SceneManager.GetSceneAt(SceneManager.sceneCount - 1);
+            SceneManager.SetActiveScene(newScene);
+            EventHandler.CallStartNewGameEvent(0);
+            EventHandler.CallUpdateGameStateEvent(GameState.Gameplay);
+            EventHandler.CallAfterSceneLoadedEvent();
+        }
+
         /// <summary>
         /// 加载场景并设置为激活
         /// </summary>
@@ -102,21 +115,22 @@ namespace MFarm.Transition
         /// <returns></returns>
         private IEnumerator Fade(float targetAlpha)
         {
-            isFade = true;
+            yield return 0;
+            // isFade = true;
 
-            fadeCanvasGroup.blocksRaycasts = true;
+            // fadeCanvasGroup.blocksRaycasts = true;
 
-            float speed = Mathf.Abs(fadeCanvasGroup.alpha - targetAlpha) / Settings.fadeDuration;
+            // float speed = Mathf.Abs(fadeCanvasGroup.alpha - targetAlpha) / Settings.fadeDuration;
 
-            while (!Mathf.Approximately(fadeCanvasGroup.alpha, targetAlpha))
-            {
-                fadeCanvasGroup.alpha = Mathf.MoveTowards(fadeCanvasGroup.alpha, targetAlpha, speed * Time.deltaTime);
-                yield return null;
-            }
+            // while (!Mathf.Approximately(fadeCanvasGroup.alpha, targetAlpha))
+            // {
+            //     fadeCanvasGroup.alpha = Mathf.MoveTowards(fadeCanvasGroup.alpha, targetAlpha, speed * Time.deltaTime);
+            //     yield return null;
+            // }
 
-            fadeCanvasGroup.blocksRaycasts = false;
+            // fadeCanvasGroup.blocksRaycasts = false;
 
-            isFade = false;
+            // isFade = false;
         }
 
 
