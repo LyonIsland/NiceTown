@@ -50,8 +50,10 @@ namespace MFarm.Transition
 
         private void Start()
         {
-            StartCoroutine(startScenceHandle(startSceneName));
             //没有开始流程，先这样唤起启动event 
+            EventHandler.CallStartNewGameEvent(0);
+            // StartCoroutine(startScenceHandle(startSceneName));
+            EventHandler.CallUpdateGameStateEvent(GameState.Gameplay);
             fadeCanvasGroup = FindObjectOfType<CanvasGroup>();
         }
 

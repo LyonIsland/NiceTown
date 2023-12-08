@@ -753,11 +753,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 196049823}
+  - component: {fileID: 196049828}
   - component: {fileID: 196049825}
   - component: {fileID: 196049824}
   - component: {fileID: 196049827}
   - component: {fileID: 196049826}
-  - component: {fileID: 196049828}
   - component: {fileID: 196049829}
   - component: {fileID: 196049830}
   m_Layer: 0
@@ -797,7 +797,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.02099967, y: 0.27656364}
+  m_Offset: {x: 0.00044560432, y: 0.27656364}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
@@ -808,7 +808,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8100343, y: 0.5811262}
+  m_Size: {x: 1.6249518, y: 0.5811262}
   m_EdgeRadius: 0
 --- !u!212 &196049825
 SpriteRenderer:
@@ -916,7 +916,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scheduleData: {fileID: 11400000, guid: da1f05c9079cc0f4cbe26ed9248fbc64, type: 2}
-  currentScene: 01.Field
+  currentScene: 02.Home
   normalSpeed: 2
   isMoving: 0
   interactable: 0
@@ -2733,7 +2733,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &953790429
 Transform:
   m_ObjectHideFlags: 0
@@ -5210,7 +5210,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2086656992}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ada32b1f9ff456d429528f51de687e05, type: 3}
   m_Name: 
@@ -5268,7 +5268,7 @@ MonoBehaviour:
   sceneRouteDate: {fileID: 11400000, guid: ae811fe0036ed9244a40afaed859ada4, type: 2}
   npcPositionList:
   - npc: {fileID: 196049823}
-    startScene: 01.Field
+    startScene: 02.Home
     position: {x: 1.5, y: -3, z: 0}
 --- !u!1 &2120969732
 GameObject:

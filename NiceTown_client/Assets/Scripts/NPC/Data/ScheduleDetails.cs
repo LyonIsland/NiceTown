@@ -6,11 +6,13 @@ public class ScheduleDetails: IComparable<ScheduleDetails>
 {
     public int hour, minute, day;
     public int priority;    //优先级越小优先执行
+    [HideInInspector]
     public Season season;
     public string targetScene;
     public Vector2Int targetGridPosition;
     public AnimationClip clipAtStop;
     public bool interactable;
+
 
     public ScheduleDetails(int hour, int minute, int day, int priority, Season season, string targetScene, Vector2Int targetGridPosition, AnimationClip clipAtStop, bool interactable)
     {

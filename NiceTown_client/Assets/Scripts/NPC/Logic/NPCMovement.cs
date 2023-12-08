@@ -97,7 +97,6 @@ public class NPCMovement : MonoBehaviour, ISaveable
     {
         //ISaveable saveable = this;
         //saveable.RegisterSaveable();
-        print(scheduleData);
         scheduleData.scheduleList.Add(new ScheduleDetails(7, 5, 0, 0, Season.春天, "01.Field", new Vector2Int(10,20), null, false));
     }
 

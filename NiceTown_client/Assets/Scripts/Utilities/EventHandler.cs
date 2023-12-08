@@ -136,7 +136,6 @@ public static class EventHandler
     public static event Action<GameState> UpdateGameStateEvent;
     public static void CallUpdateGameStateEvent(GameState gameState)
     {
-        Debug.Log(gameState);
         UpdateGameStateEvent?.Invoke(gameState);
     }
     

@@ -44,7 +44,7 @@ public class TimeManager : Singleton<TimeManager>, ISaveable
 
         //ISaveable saveable = this;
         //saveable.RegisterSaveable();
-        gameClockPause = true;
+        gameClockPause = false;
         // EventHandler.CallGameDateEvent(gameHour, gameDay, gameMonth, gameYear, gameSeason);
         // EventHandler.CallGameMinuteEvent(gameMinute, gameHour, gameDay, gameSeason);
         // //切换灯光
@@ -53,7 +53,6 @@ public class TimeManager : Singleton<TimeManager>, ISaveable
 
     private void Update()
     {
-        //print(gameClockPause);
         if (!gameClockPause)
         {
             tikTime += Time.deltaTime;
@@ -104,6 +103,7 @@ public class TimeManager : Singleton<TimeManager>, ISaveable
     private void OnUpdateGameStateEvent(GameState gameState)
     {
         gameClockPause = gameState == GameState.Pause;
+        print(gameClockPause);
     }
 
     private void OnAfterSceneLoadedEvent()
