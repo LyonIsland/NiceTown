@@ -42,9 +42,9 @@ public class TimeManager : Singleton<TimeManager>, ISaveable
     private void Start()
     {
 
-        ISaveable saveable = this;
-        saveable.RegisterSaveable();
-        gameClockPause = true;
+        //ISaveable saveable = this;
+        //saveable.RegisterSaveable();
+        gameClockPause = false;
         // EventHandler.CallGameDateEvent(gameHour, gameDay, gameMonth, gameYear, gameSeason);
         // EventHandler.CallGameMinuteEvent(gameMinute, gameHour, gameDay, gameSeason);
         // //切换灯光
@@ -103,6 +103,7 @@ public class TimeManager : Singleton<TimeManager>, ISaveable
     private void OnUpdateGameStateEvent(GameState gameState)
     {
         gameClockPause = gameState == GameState.Pause;
+        print(gameClockPause);
     }
 
     private void OnAfterSceneLoadedEvent()
