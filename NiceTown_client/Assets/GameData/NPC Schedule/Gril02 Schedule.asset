@@ -18,8 +18,8 @@ MonoBehaviour:
     day: 0
     priority: 0
     season: 0
-    targetScene: 01.Field
-    targetGridPosition: {x: -5, y: -10}
+    targetScene: Template 1
+    targetGridPosition: {x: -30, y: -7}
     clipAtStop: {fileID: 0}
     interactable: 1
   - hour: 10
@@ -27,7 +27,52 @@ MonoBehaviour:
     day: 0
     priority: 0
     season: 0
-    targetScene: 01.Field
+    targetScene: Template 1
     targetGridPosition: {x: 8, y: -4}
     clipAtStop: {fileID: 0}
     interactable: 1
+  - hour: 7
+    minute: 5
+    day: 0
+    priority: 0
+    season: 0
+    targetScene: 01.Field
+    targetGridPosition: {x: 10, y: 20}
+    clipAtStop: {fileID: 0}
+    interactable: 0
+  - hour: 7
+    minute: 5
+    day: 0
+    priority: 0
+    season: 0
+    targetScene: 01.Field
+    targetGridPosition: {x: 10, y: 20}
+    clipAtStop: {fileID: 0}
+    interactable: 0
+  - hour: 7
+    minute: 5
+    day: 0
+    priority: 0
+    season: 0
+    targetScene: 01.Field
+    targetGridPosition: {x: 10, y: 20}
+    clipAtStop: {fileID: 0}
+    interactable: 0
+  - hour: 7
+    minute: 5
+    day: 0
+    priority: 0
+    season: 0
+    targetScene: 01.Field
+    targetGridPosition: {x: 10, y: 20}
+    clipAtStop: {fileID: 0}
+    interactable: 0
+  - hour: 7
+    minute: 5
+    day: 0
+    priority: 0
+    season: 0
+    targetScene: 01.Field
+    targetGridPosition: {x: 10, y: 20}
+    clipAtStop: {fileID: 0}
+    interactable: 0

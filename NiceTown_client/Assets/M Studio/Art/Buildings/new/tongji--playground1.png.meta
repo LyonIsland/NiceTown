@@ -1,0 +1,5459 @@
+fileFormatVersion: 2
+guid: bab09629e274b9d468d9443a46d6ceeb
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tongji--playground1_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 204
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6067359dda708574f94500c8bc8cd374
+      internalID: -1548138637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_1
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 204
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc47727ffd45b6448e11c57a3aef1ea
+      internalID: 2024898351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_2
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 204
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 179c7f6f7bbfa294db4145e1cad2168a
+      internalID: 874130591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_3
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 204
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c34f5e92a41d5443b84bbcf9d9f7d45
+      internalID: -1619461879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_4
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 204
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 518e7a5300f72e64eab56c2763ae716a
+      internalID: 785524833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_5
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 204
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8b7d20a8a126a242992ca0b8f835660
+      internalID: -289907576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_6
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 204
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cab4b59daaa5da4b9b400c556b0030a
+      internalID: 1424950618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_7
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 204
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c90af456c9fe014a9f227e7f3a7902b
+      internalID: 1975345985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_8
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 204
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b70c4e990339a946bd4d3d8918ae2c5
+      internalID: 1888574276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_9
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 204
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc017b7c6f56ac478f0cfc20c1446c6
+      internalID: 1578789002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_10
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 204
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e718171b2ef31fe41a6b08a9fab6cac6
+      internalID: 748146238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_11
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 204
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f6b862ca1b1db46afb082edaae58fc
+      internalID: -555387702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_12
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 204
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fd1fee146b0c3c47baf81199cb10a70
+      internalID: 647448387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_13
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 204
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6954dffa2f1c2fb40a836bc1f350bcab
+      internalID: 744916243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_14
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 204
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb31bfe99518203409d0c1c231617447
+      internalID: -1104326923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_15
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 204
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec00fc27c0d1a124a95380ed2f148959
+      internalID: -1150935174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_16
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 204
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d74164be33c72c44999fc04175f25ac
+      internalID: -2121736034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_17
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 204
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa6542716553764791e19b17700bfe2
+      internalID: -521021151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_18
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 204
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c00a059a2f7e1f94eb155e676270ec21
+      internalID: 164095790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_19
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 204
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad04e1eda31da145901aad70280760d
+      internalID: 824219242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_20
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 204
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6ae918baa9f71418cc710079d8a46c
+      internalID: 312133450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_21
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 204
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9906abc01b576344b5ad2d19454d4c3
+      internalID: 1739048740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_22
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 184
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff57d5f868b60a645baee6dcf5f0b809
+      internalID: -570602965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_23
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 184
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8d66b687a4df3f46a01662196e5d5e3
+      internalID: -2076257428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_24
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 184
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 933427fabc424fc4484c71b2cee3cc09
+      internalID: 1508751814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_25
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 184
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd523c036625fb45ad04fd00f371b28
+      internalID: 1063565339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_26
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 184
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e32065fbb3528c4bb996d348d880d3f
+      internalID: -1807080436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_27
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 184
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ebbed517e8f5664187606f0020d83e4
+      internalID: 1776657662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_28
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 184
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f738bde012f533d4c9fdd57af9d0c6ac
+      internalID: 993434657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_29
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 184
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b25d73d0485ad749970aa44847b17cc
+      internalID: 1365857616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_30
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 184
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21f8901a866d1e5429b88a260d76402b
+      internalID: 2000165304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_31
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 184
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e94b982c75c880c40ba221fa4a8506dd
+      internalID: 579912045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_32
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 184
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6807bfff9eeb284fa90cea3bbd65608
+      internalID: 1747392582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_33
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 184
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a096bf948a1fd41883bfeffdb093b1
+      internalID: 1294953856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_34
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 184
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda0332ce53813346a29d0966f3311d3
+      internalID: -1394940747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_35
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 184
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e28ec661ce8548458625673ab267e31
+      internalID: 1820453687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_36
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 184
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd22b604a6ffa704eac65afda28f9ea0
+      internalID: 1402702437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_37
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 184
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 876e228cab06be8478aae2df45832404
+      internalID: 1976164941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_38
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 184
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1e47cf0e96b5b4438b3dfd2435e9183
+      internalID: 320219623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_39
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 184
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1692439e812bb1044a77050241ed41c8
+      internalID: 2019503429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_40
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 184
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b425af66bf4652444a0ed84d20573d47
+      internalID: -1093521790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_41
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 184
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49589f3087f289e42a8b096fb5f35432
+      internalID: -1941229875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_42
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 184
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fdd00ae0e4cf8d42827618d5beff716
+      internalID: -1799430326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_43
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 184
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82be2ca030a24854d8983f439d95b3ed
+      internalID: 1977660227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_44
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 164
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f8cac44570e194eab0927960497e7a
+      internalID: 2007502322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_45
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 164
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 740a3c386ca13da46b5195b06ddf4ccf
+      internalID: 195356565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_46
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 164
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 910b154138e100c4fa91d19d39b79056
+      internalID: 2075682750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_47
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 164
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fabe0f25572ad44fa9f489b6669f802
+      internalID: -1189093142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_48
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 164
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d70c5c568e803144bbddfee709c6fa6f
+      internalID: -1891956450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_49
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 164
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a61e004f95a33439d4681334aa638b
+      internalID: -1388195481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_50
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 164
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a7d59cb353721d4ab71a47f03178a78
+      internalID: -1904234415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_51
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 164
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc2394eaccc5819419781bbbd836c62a
+      internalID: 1417405629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_52
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 164
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 585c46213da4a664b97a00b730f3f67f
+      internalID: -1424714050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_53
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 164
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d22d8209aafb565428eb10015c641dcf
+      internalID: -491391996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_54
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 164
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a5b508b030b3a47a773ab0f8381b83
+      internalID: -882118958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_55
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 164
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39150b3e55cc4ac429ecee2429f7123b
+      internalID: -1952139750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_56
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 164
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e63bee35e1752b4393036b71d8a2d2c
+      internalID: -1655847808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_57
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 164
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e214c6313fb33347a6cb3fc25ed2244
+      internalID: 1087381143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_58
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 164
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f47f1d65ef77b648bbef381a39a71e8
+      internalID: -924633205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_59
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 164
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d9ce087e6675c4481034d5e0b418f9
+      internalID: -929567085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_60
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 164
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ea491509bf6c641b34ecc998ba99e9
+      internalID: 1895635662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_61
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 164
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732c0ef76f518804e941fbd33c7a6de0
+      internalID: -199565416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_62
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 164
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d543ae0ceef4d24eb2b87e01f7950db
+      internalID: -86314565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_63
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 164
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbaacde977fc63d459ecefcf58f315fc
+      internalID: -120028377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_64
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 164
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab7c1320b9ef4b5498746e80809cd101
+      internalID: -9513180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_65
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 164
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b353aafedc486344a66ddeded86f684
+      internalID: 43223488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_66
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 144
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8221e2691a868942b2a1c73b0a841a1
+      internalID: -1484872702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_67
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 144
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 001eb1564c6f9b14791e23a00917d8d9
+      internalID: 99831063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_68
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 144
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 834abd0ce6f63944d82f7355487e6f9c
+      internalID: 2021657875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_69
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 144
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e978adb7c23e8644bba3f801f24f42ce
+      internalID: -886992022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_70
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 144
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a58b23e40332a94c853b88df9804e9c
+      internalID: 579777139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_71
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 144
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acfdab504993c7f40a45d91e426e9c92
+      internalID: -1066521278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_72
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 144
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283ccbef8e2070547ac0e9ca861c4899
+      internalID: 1917625953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_73
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 144
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa65ca1be36463141b265005f042ce98
+      internalID: 503186998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_74
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 144
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bebcc6540eac6034c84331be9fb84b95
+      internalID: 1558567802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_75
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 144
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c8b0b0efee45f4d93ab5216578ebb8
+      internalID: 729508761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_76
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 144
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30041299a3e346489773be6c421a894
+      internalID: -1433831447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_77
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 144
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6235fcf7cc1899649b6808ee82ff9c6e
+      internalID: -683474545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_78
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 144
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 188c110826edd3641b561253a8d7878d
+      internalID: 1949032672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_79
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 144
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef0e6d2f7f9ab645b08cbb1d08be06f
+      internalID: 932261201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_80
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 144
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f70478b875f164e846f0f117e25c81
+      internalID: 310549134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_81
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 144
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84dc62f62d51ffe40854019590a1afd2
+      internalID: -1405648637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_82
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 144
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b25a75ef52ff56442bffbede01509e53
+      internalID: 28142816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_83
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 144
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1261ea2a5b0d9a747b48a9bc5f6297a4
+      internalID: 2001356214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_84
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 144
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b20c58b9ea7f044f81d9f7e7734621d
+      internalID: 1830748319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_85
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 144
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da3a6486db4e2784f978a07ebf87dbfa
+      internalID: 337225668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_86
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 144
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e351606dfe5a14b8d06aac51af46f9
+      internalID: -1392792799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_87
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 144
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c283a16ba6a81e249b771eec15e32661
+      internalID: -1504603030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_88
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 124
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e36e6bcfcc2f794e88ed0f7adaa8a4c
+      internalID: 1088795915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_89
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 124
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 387c3cfe2c9f02d46aeea3d2dfb75f2d
+      internalID: 603878054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_90
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 124
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 366b733f75630d44799cf9d7b7074187
+      internalID: 849397920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_91
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 124
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b95820de7a189954ab7fab2c87622691
+      internalID: 2123082178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_92
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 124
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d988f1960707a4c89d745c98bc43bd
+      internalID: 1110801607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_93
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 124
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab56b09e258a62408ac596da863a4a6
+      internalID: -182213981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_94
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 124
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6475c19d90cc55945a553a7b60d715b8
+      internalID: 1547392992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_95
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 124
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d4b9fc12bc1274ea266b75e4f2b365
+      internalID: -2140143920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_96
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 124
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4c650c9dfd6c54883fb78e1af58bd6
+      internalID: -1623096980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_97
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 124
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36caf92928658d140ad2908525c7a2dd
+      internalID: -402603713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_98
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 124
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed5852ee39df3944a94335b2c3988626
+      internalID: 259855859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_99
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 124
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f79a331760f5ff47aaba3c002463f74
+      internalID: -399962150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_100
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 124
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba700515fed7633478c9b5a5ab47b87f
+      internalID: -17249119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_101
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 124
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4881bdebae027ec4c905beacb97f1b81
+      internalID: 312888073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_102
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 124
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83821427ff853fe498b8ddb114980a10
+      internalID: 1072663819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_103
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 124
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c3d8faf85d5e446bf5989fb9a032da
+      internalID: -1643275579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_104
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 124
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebeba74b942a66f44b6bc4c479b3ff01
+      internalID: 1231221308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_105
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 124
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74748970fd31b304093c82d7b81dc3c9
+      internalID: -2126076769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_106
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 124
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b9aed50d60305e4e95b1f028ef02813
+      internalID: 351837067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_107
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 124
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b87c60a1d88c040ae775f048a92201
+      internalID: 170038797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_108
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 124
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 823c0ff5eb4e92443ad8a296e758847d
+      internalID: -1124085753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_109
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 124
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac6a2b749221994eb0a1049f0f748f7
+      internalID: 1857314575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_110
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 104
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e00f78a19d452f478eeae1e67b39e56
+      internalID: 1064472312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_111
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 104
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97dab874c71b9bf4cbad18e177712e3d
+      internalID: -1360535534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_112
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 104
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81034ae7a61870849896761d4bea9bce
+      internalID: 1923838067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_113
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 104
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 734f4a4b02bbaeb4882add6743a626d6
+      internalID: 1775104655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_114
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 104
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a01ec269c564f40ab5f210d40b6d84
+      internalID: -1201859054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_115
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 104
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69db682b4b8b9a945bfd76082b8de22d
+      internalID: 421058457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_116
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 104
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 007e3a89a31bca54691a6ed78244295f
+      internalID: 1993804092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_117
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 104
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a775bab47eb0f784488469c20c8c04f9
+      internalID: -1834186863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_118
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 104
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e729c8d0b6c85b544b5bad8b5c00d632
+      internalID: 1984747452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_119
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 104
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e474cab4bc7744ba7be43d3a5dcc5e
+      internalID: 333477993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_120
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 104
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cbb15d19a0789340a4bfeb95b58a4d7
+      internalID: -1639758697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_121
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 104
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fbc3348b1c969247a350147bc8d43b6
+      internalID: 637272446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_122
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 104
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d51331c694cb5c04bbea47a1ffe3e969
+      internalID: 1669495792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_123
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 104
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00cbdccfbc0b1944cbf248a5fc7d4639
+      internalID: 775835800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_124
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 104
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e3786acd8c36f498531c00616e0131
+      internalID: 1231125656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_125
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 104
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd218aed5193ae4297dd5900a4da57c
+      internalID: -1794655687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_126
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 104
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d027d3888631efd44bfe918c532d8693
+      internalID: 1034102672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_127
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 104
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 508ea4e54cc2ff941af9a95e8b23a498
+      internalID: 1165968216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_128
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 104
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e35d68e95838014ba8acb5df38c9922
+      internalID: 1074838524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_129
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 104
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7b62ebca9536f84c8e6d8da153849b6
+      internalID: -1207085701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_130
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 104
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4052cf01801e5394bb5476be85a4f08b
+      internalID: -1758856301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_131
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 104
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1a5c7a0fbb7eba47952bde24b1d897b
+      internalID: 773530687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_132
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 84
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00d3b47cbba8234b9ff20a4ef49a143
+      internalID: 1161359591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_133
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 84
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 657c19ed26fe6bb4b9d0b9e52d0677db
+      internalID: -1289186311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_134
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 84
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a9ee54f5bb82f47bff434c6c9240fd
+      internalID: 1061979143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_135
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 84
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84a2b3af3f48ba940b75d13b96a2c05b
+      internalID: -1667797494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_136
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 84
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59cff1924a5996244ada1c8868eb31d5
+      internalID: 2057367831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_137
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 84
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c32fc03667b4ea43a33fcdc43e9df3d
+      internalID: -1785540773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_138
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 84
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c45290e8717e948939a79e43f3940b
+      internalID: -894348043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_139
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 84
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa0e1bfc8b80bc4eb8752acf3beee40
+      internalID: 89903492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_140
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 84
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c9d812629d25ea4d8710396d67c7d9a
+      internalID: -1151883350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_141
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 84
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7233ec6e9be132046b8dcb5907ff080e
+      internalID: -1899303156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_142
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 84
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1498ffbb63ac308418a91257e085e932
+      internalID: -727184216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_143
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 84
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a031130fb82129740aca3ad4d505af5c
+      internalID: 2014268556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_144
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 84
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 530f23a5741129342ba70177864ae929
+      internalID: 1952662708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_145
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 84
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a91f88f2929d214a9f608c62cf8b859
+      internalID: 1435179154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_146
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 84
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 275bb0e7f212fd3498eba3ceb876ed84
+      internalID: 622893571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_147
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 84
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94506c54f52b658449c5d655b137f3fa
+      internalID: 1763894885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_148
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 84
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86cbfc1f9bd424b43b5fe89dc151cbdd
+      internalID: -1973346134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_149
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 84
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9960e2730feac94a9aef2732896acdd
+      internalID: -2015720388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_150
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 84
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7f3536b82efecd4a8656193093e03f0
+      internalID: 1873895899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_151
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 84
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff3781561906e049aa472d391fba618
+      internalID: 1969241858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_152
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 84
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a91923dcb174d846ab2ddd0eec815e7
+      internalID: 792711334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_153
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 84
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef0bbf5e2ef549547b6d9c0ca24e2da7
+      internalID: -450010867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_154
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 64
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8974f9948acd6504883c02a463183fc8
+      internalID: 1079270478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_155
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 64
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 421094604673e8e4689efed0c96dc533
+      internalID: 224442978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_156
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 64
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f2d2504f5f807547aff17c99119cb10
+      internalID: -11115872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_157
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 64
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6afc94060bdb0fe4eb400053e1f5c9aa
+      internalID: 1686420102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_158
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 64
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 300f590a5560ab847bcf43cbf285704c
+      internalID: 524335478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_159
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 64
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fdeb8ee2fe26b441867f0f262d8317f
+      internalID: -816266692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_160
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 64
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f8700e8f7bb694a99c6a2a98ce356c
+      internalID: 76023172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_161
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 64
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a803d725e37a849b71915e9e7e741d
+      internalID: 16940680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_162
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 64
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99af2f3d00906f54d914b9355d1f7d5b
+      internalID: 1540712505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_163
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 64
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 004574ac76851ab42b4246800f8b6255
+      internalID: 1204963333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_164
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 64
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 537aaf6439ba7a5419e3a7abf2c43874
+      internalID: 446658560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_165
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 64
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07af5e9c4d997604cbb0b1152f4e41f7
+      internalID: 1645140602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_166
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 64
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54500890ab56ec84c929abcb18c9cb8e
+      internalID: 1360924934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_167
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 64
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 801f16ae3b08ad542a30bd29126ab236
+      internalID: -39892040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_168
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 64
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d8a965e32c44c941b216ae3f944bb20
+      internalID: -228665655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_169
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 64
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c4f6a62141834844b4212609e9dc09e
+      internalID: 100721633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_170
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 64
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 485fe56cebb06754f90e7d5ec0f0b6ae
+      internalID: 1233812213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_171
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 64
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d571919eb750b645a8e721ea80e5f40
+      internalID: 1001252334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_172
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 64
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f52fdc4308f434a8a39e253c0a1276
+      internalID: 919071148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_173
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 64
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99bfa5facd4535f4395b5d418c99d704
+      internalID: -1499946474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_174
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 64
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde452aace1ac7b4992bc7d50802955d
+      internalID: -631709022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_175
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 64
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf0e9315fc2f8b4791ad936dc392d87
+      internalID: 1926990755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_176
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 44
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dfb81e62a7009247bec6b74cb87f3f4
+      internalID: 1429780985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_177
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 44
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be05e3b5f95bdc440b41c0f774c9eaeb
+      internalID: 1097384903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_178
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 44
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ec4fc2d9fa31c4c908fe207694a912
+      internalID: -1527720545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_179
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 44
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1368f60d354305a4880a122b040719e2
+      internalID: 1466105734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_180
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 44
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cfbf3c35bad49949b5523790ef47301
+      internalID: -1006650343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_181
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 44
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 637b6aa5ebc9f1244b7d1533ac3e30c3
+      internalID: 1778672622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_182
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 44
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd7c0d75dabfbc469171f6f308fc14e
+      internalID: -2071824353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_183
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 44
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c6be663cf33694baf147c1206a5fdc
+      internalID: 783132698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_184
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 44
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5243f89343cdf724fa1e7d55380654cb
+      internalID: -925966107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_185
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 44
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5667e0bb44978c3459604ad83cccb9f8
+      internalID: -2134024217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_186
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 44
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb917f9271f10b64c964a73cc2da3291
+      internalID: 1934451137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_187
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 44
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 299aed87eec78f241aaa699ea8a9b5ce
+      internalID: -1400092901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_188
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 44
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac8ec6e78a1f2c41958c0b24c14f82a
+      internalID: 1876943699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_189
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 44
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 032c698a1b377f8458a2ca03ae157341
+      internalID: -1258220606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_190
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 44
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae9261f6936828848bcfb7dcfb5a4aa7
+      internalID: 5887428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_191
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 44
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c6d70a3b78501c44be09db63f3fb18d
+      internalID: -1888720599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_192
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 44
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6448026736dbff548a33731f144c4aa8
+      internalID: 260839020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_193
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 44
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa760d603a8cf248b14f11021a26714
+      internalID: -323473273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_194
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 44
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1660ffc1a876ec141b92b69610cf9acb
+      internalID: 431085059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_195
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 44
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a7b4b3d443dfbf428059c9b906fe158
+      internalID: -1621204067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_196
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 44
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ca780f68488f84bba55fd3118bd2d6
+      internalID: -2004659311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_197
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 44
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee12ba80869c9464994e727727a567b7
+      internalID: 1625036545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_198
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 24
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 195ebf2e92de721468cdbd3e075bbc88
+      internalID: 292205834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_199
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 24
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5753ec8fc6b83a469075f3012c50afb
+      internalID: 1719914003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_200
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 24
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc13dc1a4f4afdb4794c474bb7ab7f4a
+      internalID: 983875507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_201
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 24
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d9ad64729eb0ff46b726fc2926f5dda
+      internalID: 545955416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_202
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 24
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2fee1ec3b5fbfc45a9d68802f272532
+      internalID: -691502265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_203
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 24
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bdc473f9f7dc4440984605b2931eb54
+      internalID: -829016309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_204
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 24
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bfbf70017be20c47ac97aed80aaba23
+      internalID: -402673188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_205
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 24
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d3dc19b24e11634fbc9cb3a850dec43
+      internalID: -802759479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_206
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 24
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b974bef68d825d45ab98dd48257e7df
+      internalID: 111206769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_207
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 24
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d776479735b824469b1b3668198fff6
+      internalID: 1189183878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_208
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 24
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d78c560bd2ef6b4cad577d11db1b12c
+      internalID: 1051310017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_209
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 24
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aabb72a50d30f6049a5096bd81c61ac0
+      internalID: 517018015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_210
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 24
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c8f09c4e6462c4fa3ce33aa21b55f4
+      internalID: -1706844820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_211
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 24
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c76a783946f9a742a79fb44a00475e9
+      internalID: 1463507951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_212
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 24
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653b1d2af2f239945bbb5f86ef21d814
+      internalID: 1947842838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_213
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 24
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde09448e229c3a4193e0e690dca6eee
+      internalID: 1761164194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_214
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 24
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a955a5e7ede881449b4b9a263e973819
+      internalID: 1506951554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_215
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 24
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca054ae6686aeb4686eeb595ed0095d
+      internalID: -1064339687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_216
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 24
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f990ccc1c1f354bb51aa34e3241056
+      internalID: -745120804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_217
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 24
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: addbf06b42cd9964eb8bff0fcbc73dbb
+      internalID: 2085294780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_218
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 24
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef01e58bdfeee2247af0c88cc7f7d233
+      internalID: 441681508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_219
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 24
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 526047a1ef6c25c45bc6bb80818b0a80
+      internalID: 16131574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_220
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 4
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c4b714094691240800afcca6362d53
+      internalID: 1065254238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_221
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 4
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc16304911dab04bb9a0ede754f5790
+      internalID: -1276345308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_222
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 4
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a9d1062caefee4f9dcadc5d2db73e6
+      internalID: -786946965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_223
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 4
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d124931f96f981343a968dbfb230851b
+      internalID: 643130108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_224
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 4
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b9c24fc51c914741b128181f9a062cb
+      internalID: -656436827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_225
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 4
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feb8d6802b76a634c98710af9c55cfcf
+      internalID: 1348128388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_226
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 4
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed3b26a74a1e3247abc9ba687085903
+      internalID: 1973856138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_227
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 4
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fceb8280b2cac6c4d9e496a7bd39d4ca
+      internalID: 1005903306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_228
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 4
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9796682fe9cdc2f42a1270d3563ecdd6
+      internalID: -579364900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_229
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 4
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d887a61088c51544db679878e197059a
+      internalID: -285496498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_230
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 4
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f3bf7ce5a78c164f93efcb85675896b
+      internalID: 1425158351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_231
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 4
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b6c48c4a3f398c4ea646aeaeeb795f2
+      internalID: 619390007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_232
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 4
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb8719a64c8e313429e49b5a812191ed
+      internalID: -1011404707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_233
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 4
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9ce7494c8b8054fa77744c1e37342a
+      internalID: 1506104408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_234
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 4
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cd291798e042a54fb265b582f9d0350
+      internalID: 754623802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_235
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 4
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ea23868d2f64a448f31b9bbb739c53
+      internalID: -833656343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_236
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 4
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe01a82f85ac70141b363cd1f0063554
+      internalID: -359271879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_237
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 4
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19f9de79496e1b84e823cf66ad09ae92
+      internalID: 1856012581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_238
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 4
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f81cf6e743535cf4f89bff99ca96aad0
+      internalID: 372576792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_239
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 4
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b272df5ffbe48049b3abae97684816c
+      internalID: 1650928387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_240
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 4
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca39eb8504cb884ca6225ba90dc3c3e
+      internalID: -1387411628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tongji--playground1_241
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 4
+        width: 20
+        height: 20
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b216584d354d31c448edaaf6031f6316
+      internalID: -1790951528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      tongji--playground1_123: 775835800
+      tongji--playground1_7: 1975345985
+      tongji--playground1_151: 1969241858
+      tongji--playground1_175: 1926990755
+      tongji--playground1_61: -199565416
+      tongji--playground1_72: 1917625953
+      tongji--playground1_136: 2057367831
+      tongji--playground1_127: 1165968216
+      tongji--playground1_207: 1189183878
+      tongji--playground1_231: 619390007
+      tongji--playground1_146: 622893571
+      tongji--playground1_87: -1504603030
+      tongji--playground1_139: 89903492
+      tongji--playground1_167: -39892040
+      tongji--playground1_27: 1776657662
+      tongji--playground1_133: -1289186311
+      tongji--playground1_199: 1719914003
+      tongji--playground1_147: 1763894885
+      tongji--playground1_76: -1433831447
+      tongji--playground1_54: -882118958
+      tongji--playground1_176: 1429780985
+      tongji--playground1_160: 76023172
+      tongji--playground1_59: -929567085
+      tongji--playground1_35: 1820453687
+      tongji--playground1_205: -802759479
+      tongji--playground1_213: 1761164194
+      tongji--playground1_106: 351837067
+      tongji--playground1_159: -816266692
+      tongji--playground1_23: -2076257428
+      tongji--playground1_93: -182213981
+      tongji--playground1_41: -1941229875
+      tongji--playground1_203: -829016309
+      tongji--playground1_237: 1856012581
+      tongji--playground1_142: -727184216
+      tongji--playground1_14: -1104326923
+      tongji--playground1_191: -1888720599
+      tongji--playground1_88: 1088795915
+      tongji--playground1_18: 164095790
+      tongji--playground1_189: -1258220606
+      tongji--playground1_193: -323473273
+      tongji--playground1_121: 637272446
+      tongji--playground1_48: -1891956450
+      tongji--playground1_187: -1400092901
+      tongji--playground1_126: 1034102672
+      tongji--playground1_164: 446658560
+      tongji--playground1_11: -555387702
+      tongji--playground1_34: -1394940747
+      tongji--playground1_28: 993434657
+      tongji--playground1_117: -1834186863
+      tongji--playground1_116: 1993804092
+      tongji--playground1_90: 849397920
+      tongji--playground1_143: 2014268556
+      tongji--playground1_36: 1402702437
+      tongji--playground1_210: -1706844820
+      tongji--playground1_49: -1388195481
+      tongji--playground1_19: 824219242
+      tongji--playground1_47: -1189093142
+      tongji--playground1_0: -1548138637
+      tongji--playground1_236: -359271879
+      tongji--playground1_62: -86314565
+      tongji--playground1_181: 1778672622
+      tongji--playground1_92: 1110801607
+      tongji--playground1_194: 431085059
+      tongji--playground1_234: 754623802
+      tongji--playground1_73: 503186998
+      tongji--playground1_115: 421058457
+      tongji--playground1_227: 1005903306
+      tongji--playground1_82: 28142816
+      tongji--playground1_168: -228665655
+      tongji--playground1_230: 1425158351
+      tongji--playground1_66: -1484872702
+      tongji--playground1_114: -1201859054
+      tongji--playground1_183: 783132698
+      tongji--playground1_214: 1506951554
+      tongji--playground1_2: 874130591
+      tongji--playground1_74: 1558567802
+      tongji--playground1_83: 2001356214
+      tongji--playground1_135: -1667797494
+      tongji--playground1_98: 259855859
+      tongji--playground1_124: 1231125656
+      tongji--playground1_110: 1064472312
+      tongji--playground1_53: -491391996
+      tongji--playground1_38: 320219623
+      tongji--playground1_39: 2019503429
+      tongji--playground1_85: 337225668
+      tongji--playground1_130: -1758856301
+      tongji--playground1_165: 1645140602
+      tongji--playground1_220: 1065254238
+      tongji--playground1_10: 748146238
+      tongji--playground1_24: 1508751814
+      tongji--playground1_153: -450010867
+      tongji--playground1_154: 1079270478
+      tongji--playground1_144: 1952662708
+      tongji--playground1_157: 1686420102
+      tongji--playground1_99: -399962150
+      tongji--playground1_30: 2000165304
+      tongji--playground1_170: 1233812213
+      tongji--playground1_97: -402603713
+      tongji--playground1_162: 1540712505
+      tongji--playground1_156: -11115872
+      tongji--playground1_209: 517018015
+      tongji--playground1_20: 312133450
+      tongji--playground1_58: -924633205
+      tongji--playground1_206: 111206769
+      tongji--playground1_211: 1463507951
+      tongji--playground1_9: 1578789002
+      tongji--playground1_55: -1952139750
+      tongji--playground1_179: 1466105734
+      tongji--playground1_221: -1276345308
+      tongji--playground1_95: -2140143920
+      tongji--playground1_45: 195356565
+      tongji--playground1_77: -683474545
+      tongji--playground1_233: 1506104408
+      tongji--playground1_152: 792711334
+      tongji--playground1_169: 100721633
+      tongji--playground1_37: 1976164941
+      tongji--playground1_52: -1424714050
+      tongji--playground1_118: 1984747452
+      tongji--playground1_137: -1785540773
+      tongji--playground1_78: 1949032672
+      tongji--playground1_79: 932261201
+      tongji--playground1_202: -691502265
+      tongji--playground1_84: 1830748319
+      tongji--playground1_216: -745120804
+      tongji--playground1_42: -1799430326
+      tongji--playground1_185: -2134024217
+      tongji--playground1_198: 292205834
+      tongji--playground1_104: 1231221308
+      tongji--playground1_224: -656436827
+      tongji--playground1_204: -402673188
+      tongji--playground1_171: 1001252334
+      tongji--playground1_197: 1625036545
+      tongji--playground1_229: -285496498
+      tongji--playground1_150: 1873895899
+      tongji--playground1_190: 5887428
+      tongji--playground1_8: 1888574276
+      tongji--playground1_21: 1739048740
+      tongji--playground1_180: -1006650343
+      tongji--playground1_5: -289907576
+      tongji--playground1_188: 1876943699
+      tongji--playground1_119: 333477993
+      tongji--playground1_81: -1405648637
+      tongji--playground1_225: 1348128388
+      tongji--playground1_186: 1934451137
+      tongji--playground1_195: -1621204067
+      tongji--playground1_128: 1074838524
+      tongji--playground1_218: 441681508
+      tongji--playground1_228: -579364900
+      tongji--playground1_101: 312888073
+      tongji--playground1_4: 785524833
+      tongji--playground1_89: 603878054
+      tongji--playground1_105: -2126076769
+      tongji--playground1_212: 1947842838
+      tongji--playground1_6: 1424950618
+      tongji--playground1_215: -1064339687
+      tongji--playground1_196: -2004659311
+      tongji--playground1_69: -886992022
+      tongji--playground1_1: 2024898351
+      tongji--playground1_13: 744916243
+      tongji--playground1_64: -9513180
+      tongji--playground1_145: 1435179154
+      tongji--playground1_131: 773530687
+      tongji--playground1_57: 1087381143
+      tongji--playground1_161: 16940680
+      tongji--playground1_217: 2085294780
+      tongji--playground1_149: -2015720388
+      tongji--playground1_70: 579777139
+      tongji--playground1_75: 729508761
+      tongji--playground1_44: 2007502322
+      tongji--playground1_91: 2123082178
+      tongji--playground1_138: -894348043
+      tongji--playground1_86: -1392792799
+      tongji--playground1_222: -786946965
+      tongji--playground1_232: -1011404707
+      tongji--playground1_51: 1417405629
+      tongji--playground1_192: 260839020
+      tongji--playground1_15: -1150935174
+      tongji--playground1_122: 1669495792
+      tongji--playground1_31: 579912045
+      tongji--playground1_155: 224442978
+      tongji--playground1_120: -1639758697
+      tongji--playground1_26: -1807080436
+      tongji--playground1_109: 1857314575
+      tongji--playground1_141: -1899303156
+      tongji--playground1_112: 1923838067
+      tongji--playground1_140: -1151883350
+      tongji--playground1_148: -1973346134
+      tongji--playground1_132: 1161359591
+      tongji--playground1_182: -2071824353
+      tongji--playground1_200: 983875507
+      tongji--playground1_125: -1794655687
+      tongji--playground1_166: 1360924934
+      tongji--playground1_134: 1061979143
+      tongji--playground1_103: -1643275579
+      tongji--playground1_174: -631709022
+      tongji--playground1_17: -521021151
+      tongji--playground1_163: 1204963333
+      tongji--playground1_223: 643130108
+      tongji--playground1_178: -1527720545
+      tongji--playground1_29: 1365857616
+      tongji--playground1_239: 1650928387
+      tongji--playground1_33: 1294953856
+      tongji--playground1_113: 1775104655
+      tongji--playground1_25: 1063565339
+      tongji--playground1_60: 1895635662
+      tongji--playground1_68: 2021657875
+      tongji--playground1_63: -120028377
+      tongji--playground1_158: 524335478
+      tongji--playground1_96: -1623096980
+      tongji--playground1_50: -1904234415
+      tongji--playground1_67: 99831063
+      tongji--playground1_172: 919071148
+      tongji--playground1_65: 43223488
+      tongji--playground1_173: -1499946474
+      tongji--playground1_108: -1124085753
+      tongji--playground1_107: 170038797
+      tongji--playground1_111: -1360535534
+      tongji--playground1_71: -1066521278
+      tongji--playground1_102: 1072663819
+      tongji--playground1_240: -1387411628
+      tongji--playground1_94: 1547392992
+      tongji--playground1_241: -1790951528
+      tongji--playground1_46: 2075682750
+      tongji--playground1_16: -2121736034
+      tongji--playground1_22: -570602965
+      tongji--playground1_235: -833656343
+      tongji--playground1_219: 16131574
+      tongji--playground1_177: 1097384903
+      tongji--playground1_56: -1655847808
+      tongji--playground1_12: 647448387
+      tongji--playground1_184: -925966107
+      tongji--playground1_40: -1093521790
+      tongji--playground1_32: 1747392582
+      tongji--playground1_100: -17249119
+      tongji--playground1_80: 310549134
+      tongji--playground1_201: 545955416
+      tongji--playground1_238: 372576792
+      tongji--playground1_43: 1977660227
+      tongji--playground1_129: -1207085701
+      tongji--playground1_3: -1619461879
+      tongji--playground1_208: 1051310017
+      tongji--playground1_226: 1973856138
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
