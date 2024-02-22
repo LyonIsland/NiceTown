@@ -29,24 +29,28 @@ namespace MFarm.AStar
 
         private void Awake()
         {
+            Debug.Log("astar test awake");
             aStar = GetComponent<AStar>();
             npcMovmentStepStack = new Stack<MovementStep>();
+            Debug.Log("astar test awake end");
         }
 
         private void Update()
         {
             ShowPathOnGridMap();
-
+            /*
             if (moveNPC)
             {
                 moveNPC = false;
                 var schedule = new ScheduleDetails(0, 0, 0, 0, Season.春天, targetScene, targetPos, stopClip, true);
                 npcMovement.BuildPath(schedule);
             }
+            */
         }
 
         private void ShowPathOnGridMap()
         {
+            //Debug.Log("show path on grid map");
             if (displayMap != null && displayTile != null)
             {
                 if (displayStartAndFinish)
@@ -62,7 +66,9 @@ namespace MFarm.AStar
 
                 if (displayPath)
                 {
+                    //Debug.Log("displaying path");
                     var sceneName = SceneManager.GetActiveScene().name;
+                    Debug.Log("building path");
 
                     aStar.BuildPath(sceneName, startPos, finishPos, npcMovmentStepStack);
 
@@ -73,6 +79,7 @@ namespace MFarm.AStar
                 }
                 else
                 {
+                    Debug.Log("npcMovementStepStack.count" + npcMovmentStepStack.Count);
                     if (npcMovmentStepStack.Count > 0)
                     {
                         foreach (var step in npcMovmentStepStack)
