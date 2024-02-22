@@ -1,0 +1,16 @@
+{
+  "Agent":"A1" ,
+  "Day": 1,
+  "version": 4 ,
+  "plan":
+      [{"time": "6:00", "environment": "宿舍", "action": "起床","session":0},
+        {"time": "7:00", "environment": "食堂", "action": "吃早餐","session":0},
+        {"time": "8:00", "environment": "学院", "action": "上课","session":0},
+        {"time": "12:00", "environment": "食堂", "action": "吃午餐","session":24120}, 
+        {"time": "13:00", "environment": "学院", "action": "自习","session":0},
+        {"time": "18:00", "environment": "食堂", "action": "吃晚餐","session":0},
+        {"time": "19:00", "environment": "宿舍", "action": "休息","session":0},
+        {"time": "21:00", "environment": "宿舍", "action": "思考人生","session":0},
+        {"time": "23:00", "environment": "宿舍", "action": "睡觉","session":0}
+      ]
+  }
