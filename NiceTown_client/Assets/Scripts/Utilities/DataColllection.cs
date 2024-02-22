@@ -124,3 +124,26 @@ public class ScenePath
     public Vector2Int fromGridCell;
     public Vector2Int gotoGridCell;
 }
+
+[System.Serializable]
+
+public class StoreLocation
+{
+    public Dictionary<string, Vector2Int> location;
+    public Dictionary<string, string> MatchScenes;
+    public void init()
+    {
+        location = new Dictionary<string, Vector2Int>();
+        MatchScenes = new Dictionary<string, string>();
+        location["宿舍"] = new Vector2Int(-11, 0);
+        location["食堂"] = new Vector2Int(3, -9);
+        location["学院"] = new Vector2Int(9, 3);
+        MatchScenes["宿舍"] = "UtilizeTestScene";
+        MatchScenes["食堂"] = "UtilizeTestScene";
+        MatchScenes["学院"] = "UtilizeTestScene";
+    }
+    public StoreLocation()
+    {
+        init();
+    }
+}
