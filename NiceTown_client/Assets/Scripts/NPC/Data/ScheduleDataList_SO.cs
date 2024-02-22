@@ -7,3 +7,4 @@ public class ScheduleDataList_SO : ScriptableObject
 {
     public List<ScheduleDetails> scheduleList;
 }
+

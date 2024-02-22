@@ -17,6 +17,11 @@ public class NPCMovement : MonoBehaviour, ISaveable
     //临时存储信息
     public string currentScene;
     private string targetScene;
+    public string ID;//
+    public int day;
+    
+    public List<MissionDetails> missionDetails;//
+    public MissionComponent DayWork;
     private Vector3Int currentGridPosition;
     private Vector3Int tragetGridPosition;
     private Vector3Int nextGridPosition;
@@ -55,26 +60,48 @@ public class NPCMovement : MonoBehaviour, ISaveable
 
     private TimeSpan GameTime => TimeManager.Instance.GameTime;
 
-    public string GUID => GetComponent<DataGUID>().guid;
 
+    public string GUID => GetComponent<DataGUID>().guid;
+    public void TransferInputDataToSchedule_SOFormat()
+    {
+        Debug.Log("transferring");
+        if (NPCManager.Instance == null)
+            Debug.Log("-------");
+        DayWork = NPCManager.Instance.MatchNPCbyID[ID];
+        Debug.Log(DayWork.plan+"*******");
+        foreach (var details in NPCManager.Instance.ToDoDict[ID])
+        {
+            missionDetails.Add(details);
+            string time = details.time;
+            string[] parts=time.Split(':');//当心可能是中文冒号，代码里写的是英文冒号
+            int hour = int.Parse(parts[0]);
+            int minute = int.Parse(parts[1]);
+            day = DayWork.Day;
+            string place = details.environment;
+            StoreLocation Findplace=new StoreLocation();
+            string targetScene = Findplace.MatchScenes[place];
+            Vector2Int pos = Findplace.location[place];
+            scheduleData.scheduleList.Add(new ScheduleDetails(hour, minute, day, 0, Season.春天, targetScene, pos, null, false));
+        }
+        Debug.Log("transfer end");
+    }
     private void Awake()
     {
+        Debug.Log("NPCMovement Awake");
+        if (NPCManager.Instance != null)
+            Debug.Log(7);
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         coll = GetComponent<BoxCollider2D>();
         anim = GetComponent<Animator>();
         movementSteps = new Stack<MovementStep>();
-
+        missionDetails = new List<MissionDetails>();//新建这个npc的行为逻辑
         animOverride = new AnimatorOverrideController(anim.runtimeAnimatorController);
         anim.runtimeAnimatorController = animOverride;
         scheduleSet = new SortedSet<ScheduleDetails>();
-
-        foreach (var schedule in scheduleData.scheduleList)
-        {
-            scheduleSet.Add(schedule);
-        }
+        Debug.Log("npc movement awake end");
     }
-
+    
     private void OnEnable()
     {
         EventHandler.AfterSceneLoadedEvent += OnAfterSceneLoadedEvent;
@@ -95,9 +122,24 @@ public class NPCMovement : MonoBehaviour, ISaveable
 
     private void Start()
     {
+        Debug.Log("NPC mpvement start");
+        if (NPCManager.Instance == null)
+            Debug.Log(8);
         //ISaveable saveable = this;
         //saveable.RegisterSaveable();
-        scheduleData.scheduleList.Add(new ScheduleDetails(7, 5, 0, 0, Season.春天, "01.Field", new Vector2Int(10,20), null, false));
+        //scheduleData.scheduleList.Add(new ScheduleDetails(7, 5, 0, 0, Season.春天, "01.Field", new Vector2Int(10,20), null, false));
+        Debug.Log("schedule set activated");
+        //Debug.Log(rb.name);
+        if (NPCManager.Instance == null)
+        {
+            Debug.Log("fail to assign mission to every npcs");
+        }
+        TransferInputDataToSchedule_SOFormat();//把传入的数据转化成Schedule可以识别的东西
+        foreach (var schedule in scheduleData.scheduleList)
+        {
+            scheduleSet.Add(schedule);
+        }
+        Debug.Log("npc movement start end");
     }
 
     private void Update()
@@ -106,8 +148,10 @@ public class NPCMovement : MonoBehaviour, ISaveable
             SwitchAnimation();
 
         //计时器
+        /*
         animationBreakTime -= Time.deltaTime;
         canPlayStopAnimaiton = animationBreakTime <= 0;
+        */
     }
 
     private void FixedUpdate()
@@ -192,6 +236,7 @@ public class NPCMovement : MonoBehaviour, ISaveable
 
     private void InitNPC()
     {
+        Debug.Log("npc initialized");
         targetScene = currentScene;
 
         //保持在当前坐标的网格中心点
@@ -208,6 +253,7 @@ public class NPCMovement : MonoBehaviour, ISaveable
     {
         if (!npcMove)
         {
+            Debug.Log("npc steps : " + movementSteps.Count);
             if (movementSteps.Count > 0)
             {
                 MovementStep step = movementSteps.Pop();
@@ -231,6 +277,7 @@ public class NPCMovement : MonoBehaviour, ISaveable
     private void MoveToGridPosition(Vector3Int gridPos, TimeSpan stepTime)
     {
         npcMoveRoutine = StartCoroutine(MoveRoutine(gridPos, stepTime));
+        Debug.Log("npc move routine "+npcMoveRoutine.ToString());
     }
 
     private IEnumerator MoveRoutine(Vector3Int gridPos, TimeSpan stepTime)
@@ -275,19 +322,31 @@ public class NPCMovement : MonoBehaviour, ISaveable
     /// <param name="schedule"></param>
     public void BuildPath(ScheduleDetails schedule)
     {
+        Debug.Log("building path");
+        Debug.Log(ID);
         movementSteps.Clear();
         currentSchedule = schedule;
         targetScene = schedule.targetScene;
         tragetGridPosition = (Vector3Int)schedule.targetGridPosition;
         stopAnimationClip = schedule.clipAtStop;
         this.interactable = schedule.interactable;
-
+        Debug.Log("schedule's target pos is : " + schedule.targetGridPosition + " and hour is : " + schedule.hour);
+        Debug.Log("check if target scene is current scene");
         if (schedule.targetScene == currentScene)
         {
+            Debug.Log("using astar");
+            if (AStar.Instance != null) 
+            { 
+                Debug.Log("Astar has been initialized"); 
+            }
+            else 
+                Debug.Log("Astar not initialized");
+            
             AStar.Instance.BuildPath(schedule.targetScene, (Vector2Int)currentGridPosition, schedule.targetGridPosition, movementSteps);
         }
         else if (schedule.targetScene != currentScene)
         {
+            Debug.Log("need to change scene");
             //这个东西得加上,从哪来去到哪
             SceneRoute sceneRoute = NPCManager.Instance.GetSceneRoute(currentScene, schedule.targetScene);
 
@@ -388,12 +447,12 @@ public class NPCMovement : MonoBehaviour, ISaveable
     {
         isMoving = transform.position != GetWorldPostion(tragetGridPosition);
 
-        anim.SetBool("isMoving", isMoving);
+        anim.SetBool("IsMoving", isMoving);
         if (isMoving)
         {
-            anim.SetBool("Exit", true);
-            anim.SetFloat("DirX", dir.x);
-            anim.SetFloat("DirY", dir.y);
+            //anim.SetBool("Exit", true);
+            anim.SetFloat("dirX", dir.x);
+            anim.SetFloat("dirY", dir.y);
         }
         else
         {
@@ -428,7 +487,7 @@ public class NPCMovement : MonoBehaviour, ISaveable
         spriteRenderer.enabled = true;
         coll.enabled = true;
 
-        transform.GetChild(0).gameObject.SetActive(true);
+        //transform.GetChild(0).gameObject.SetActive(true);
     }
 
     private void SetInactiveInScene()
@@ -436,7 +495,7 @@ public class NPCMovement : MonoBehaviour, ISaveable
         spriteRenderer.enabled = false;
         coll.enabled = false;
 
-        transform.GetChild(0).gameObject.SetActive(false);
+        //transform.GetChild(0).gameObject.SetActive(false);
     }
     #endregion
     public GameSaveData GenerateSaveData()

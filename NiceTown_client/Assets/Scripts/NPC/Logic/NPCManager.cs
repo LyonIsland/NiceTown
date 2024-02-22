@@ -2,34 +2,44 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class NPCManager : Singleton<NPCManager>
 {
-     public SceneRouteDataList_SO sceneRouteDate;
-     public List<NPCPosition> npcPositionList;
+    public SceneRouteDataList_SO sceneRouteDate;
+    public List<NPCPosition> npcPositionList;
+    public List<MissionComponent> AllMissions = new List<MissionComponent>();
+    public List<string> NPC_ID = new List<string>() { "A1", "A2", "A3", "A4", "A5" };
+    public Dictionary<string, List<MissionDetails>> ToDoDict=new Dictionary<string, List<MissionDetails>>();//根据id去检索到对应的人，并将任务分配到他头上
+    public Dictionary<string, MissionComponent> MatchNPCbyID = new Dictionary<string, MissionComponent>();
+    //先初始化五个初始npc成员姓名
+    private Dictionary<string, SceneRoute> sceneRouteDict = new Dictionary<string, SceneRoute>();
 
-     private Dictionary<string, SceneRoute> sceneRouteDict = new Dictionary<string, SceneRoute>();
+    protected override void Awake()
+    {
+        Debug.Log("npc manager awake");
+        base.Awake();
+        if (NPCManager.Instance == null)
+            Debug.Log(6);
+        InitSceneRouteDict();
+        Debug.Log("npc manager awake end");
+    }
 
-     protected override void Awake()
-     {
-          base.Awake();
-
-          InitSceneRouteDict();
-     }
-
-     private void OnEnable()
-     {
+    private void OnEnable()
+    {
         EventHandler.StartNewGameEvent += OnStartNewGameEvent;
-     }
-     
-     private void OnDisable()
-     {
-        EventHandler.StartNewGameEvent -= OnStartNewGameEvent;
-     }
+    }
 
+    private void OnDisable()
+    {
+        EventHandler.StartNewGameEvent -= OnStartNewGameEvent;
+    }
+    //----这个可能是工作内容----
     private void OnStartNewGameEvent(int obj)
     {
+        Debug.Log("NewGameEventActivated");
         foreach (var character in npcPositionList)
         {
+            Debug.Log("---" + character.ToString());
             character.npc.position = character.position;
             character.npc.GetComponent<NPCMovement>().currentScene = character.startScene;
         }

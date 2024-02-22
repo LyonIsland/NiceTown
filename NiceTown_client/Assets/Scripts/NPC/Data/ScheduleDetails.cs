@@ -13,7 +13,7 @@ public class ScheduleDetails: IComparable<ScheduleDetails>
     public AnimationClip clipAtStop;
     public bool interactable;
 
-
+    // priority, season, clipatstop, interactable 不是传入的东西，先不管
     public ScheduleDetails(int hour, int minute, int day, int priority, Season season, string targetScene, Vector2Int targetGridPosition, AnimationClip clipAtStop, bool interactable)
     {
         this.hour = hour;
