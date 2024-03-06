@@ -407,7 +407,7 @@ public class NPCMovement : MonoBehaviour, ISaveable
     public void BuildPath(ScheduleDetails schedule)
     {
         Debug.Log("building path");
-        Debug.Log(ID);
+        //Debug.Log(ID);
         movementSteps.Clear();
         currentSchedule = schedule;
         targetScene = schedule.targetScene;
