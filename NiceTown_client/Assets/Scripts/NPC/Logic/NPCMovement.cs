@@ -279,7 +279,7 @@ public class NPCMovement : MonoBehaviour, ISaveable
                 matchSchedule.targetGridPosition = new Vector2Int((int)pos.x, (int)pos.y);
             }
             BuildPath(matchSchedule);
-        }
+    }
     }
 
     private void OnBeforeSceneUnloadEvent()
@@ -407,6 +407,7 @@ public class NPCMovement : MonoBehaviour, ISaveable
     public void BuildPath(ScheduleDetails schedule)
     {
         Debug.Log("building path");
+        Debug.Log(ID);
         movementSteps.Clear();
         currentSchedule = schedule;
         targetScene = schedule.targetScene;

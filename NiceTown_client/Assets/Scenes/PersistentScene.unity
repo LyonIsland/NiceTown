@@ -966,6 +966,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scheduleData: {fileID: 11400000, guid: da1f05c9079cc0f4cbe26ed9248fbc64, type: 2}
   currentScene: Template 1
+  ID: 
+  day: 0
   normalSpeed: 2
   isMoving: 0
   interactable: 0
@@ -2987,6 +2989,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scheduleData: {fileID: 11400000, guid: eb4cf5a7470017949a2bcd9b45921807, type: 2}
   currentScene: Template 1
+  ID: 
+  day: 0
   normalSpeed: 2
   isMoving: 0
   interactable: 0
@@ -3774,6 +3778,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scheduleData: {fileID: 11400000, guid: 4e4c807cc1cf9754ba982846fe6892c9, type: 2}
   currentScene: Template 1
+  ID: 
+  day: 0
   normalSpeed: 2
   isMoving: 0
   interactable: 0

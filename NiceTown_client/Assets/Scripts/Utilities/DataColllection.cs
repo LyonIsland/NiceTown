@@ -268,7 +268,7 @@ public class DialogueComponent
     public string character;
     public string dialog;
 
-}
+    }
 
 [System.Serializable]
 //DialogueData 类：接收到的一份完整的对话内容（包括这条对话的id 主客体，时长，对话的具体内容）

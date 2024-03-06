@@ -88,6 +88,7 @@ public class AgentPlan : MonoBehaviour
         }
         */
     }
+    // Update is called once per frame
     void Update()
     {
         
@@ -95,4 +96,18 @@ public class AgentPlan : MonoBehaviour
 
 }
 
+public class MissionComponent
+{
+    public string Agent;
+    public int Day;
+    public int version;
+    public MissionDetails[] plan;
+}
 
+public class MissionDetails
+{
+    public string time;
+    public string environment;
+    public string action;
+    public int session;
+}
