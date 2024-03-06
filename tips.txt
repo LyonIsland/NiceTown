@@ -1,0 +1,16 @@
+改动比较大的地方主要集中在NPC,MissionManager,InteractItems文件夹和DataCollection文件
+
+MissionDetails 类：存储每一个行为的具体内容（时间、地点、动作、是否有对话）
+MissionComponent 类：存储Agent的名字、执行代码的时间
+ReceivedMission：接收到的一条完整的计划内容
+Stuff：这个Agent每个时间段要做的东西
+
+DialogueData 类：接收到的一份完整的对话内容（包括这条对话的id 主客体，时长，对话的具体内容）
+DialogueComponent 类：一条对话的组成（轮次，角色，内容）
+ToDoDict 字典 ->根据id将一个NPC所有要做的具体内容（MissionDetails的列表）联系起来
+MatchNPCbyID ->根据ID将归属于这个NPC的MissionComponent划分给他
+AllMissions 列表-> 将所有接收到的MissionComponent包含在内
+
+InteractItems_SO -> 类 内含一个存储所有可交互物品的信息的static列表
+InteractItemsInformation -> 类 存放目前涉及到的可交互的物品的信息
+ 

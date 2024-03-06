@@ -1,0 +1,2701 @@
+fileFormatVersion: 2
+guid: 3fae2ea7a6c57ee4196387ae610194e4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: she chuang--is_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 258
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c43cd51240522244bd3571dc78c38cb
+      internalID: 1488045185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 258
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a97c822276cc484ab0ad2d15729c4aa
+      internalID: 1710040735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_2
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 258
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e98ebce2bdb2a4ba9814ac4f8e55cf
+      internalID: 1926100328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_3
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 258
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb4b46026056b94429a55edc9ce420a8
+      internalID: 56192921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_4
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 258
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15319eda3bb459840820ba18683ce6b3
+      internalID: -712138664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_5
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 258
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dde77bb5ffeb3941899095720bb0529
+      internalID: -301452466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_6
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 258
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 181cf97f9f2e0924694c9ed9f16fe1b5
+      internalID: -629755307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_7
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 258
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea685831cf077e142a47edb2dd8f46c2
+      internalID: 2020541021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_8
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 258
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad72db1f0f102e44297aac8e2f7d0356
+      internalID: -93472966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_9
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 238
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c871c159843ecb4298508b5edf40b72
+      internalID: 1041879916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_10
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 238
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f2bb2ba9f9ae9d49b4556af6705aedb
+      internalID: 519562399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_11
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 238
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07d8e40b6d51e994583be9e4c4318a6c
+      internalID: 1064162403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_12
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 238
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc4e558aff0ca414a89d24ce6cb4e4d9
+      internalID: 332310856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_13
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 238
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ee80bf80875bf458a2b5493befb1d1
+      internalID: -984644848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_14
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 238
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef4e6c3871d36e41b48778d69b6c0cd
+      internalID: -2037996801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_15
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 238
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 526b8e9600f033a40aa1f06f0d7cbf81
+      internalID: -1377065415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_16
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 238
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc18db0ced767904e87f169ac95d8a85
+      internalID: -1391258409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_17
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 238
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6dec3fb8c1f180418596257b1679c40
+      internalID: 1206916109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_18
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 218
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 364c89b42a28b1842820a04f332e9455
+      internalID: -1273945036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_19
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 218
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c240cae32c1ed469532d9d6efe4be9
+      internalID: 1349673088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_20
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 218
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c6bf0ef3efe0b64e8fa4763aadec539
+      internalID: -985497134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_21
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 218
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b349a0880f9d41841bea2dbc95a7551b
+      internalID: 1513130899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_22
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 218
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa8cc3eb6557674d8fa34f3eb0642f4
+      internalID: -2096246783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_23
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 218
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ea782c02cef16438e46e97f284de74
+      internalID: -228090410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_24
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 218
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8b16614d36ec6943854e3a824644312
+      internalID: 1040703380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_25
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 218
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ce2b0900961614faf0de26e81507c8
+      internalID: 690229322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_26
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 218
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fca43e6ec25e7d47a746d48207f3db1
+      internalID: 1093401080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_27
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 198
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27768231527d25144a224a0e7a39f043
+      internalID: 772842876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_28
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 198
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c2081c4955ac34a875de9854b893c2
+      internalID: 385593561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_29
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 198
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e255cebb439ff4da416bc2b7191fe3
+      internalID: -918478778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_30
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 198
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d08b52bdf402b94dae5a2012e92416b
+      internalID: -1114071051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_31
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 198
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfdfa91a1ca3c9344b82baacf6ec638d
+      internalID: -652902843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_32
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 198
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec5e2d1d65960724c9faf27284ec780e
+      internalID: -881583036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_33
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 198
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 644e4bfdeece28e4884e07480caa1f54
+      internalID: -2018562168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_34
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 198
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3433de0e82b6cb46b531169e0ac8b6e
+      internalID: 1376274945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_35
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 198
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f4f0db8f6783a46a94fc6521a8a861
+      internalID: -579520599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_36
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 178
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 297a8bf48d40ce3479b6b5d8a43743c6
+      internalID: -1381544397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_37
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 178
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e573b15d31a8df6448836e933897e921
+      internalID: 218620882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_38
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 178
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bdd90b2b11be1f4fae6e0aa43a1bacb
+      internalID: 1657098584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_39
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 178
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c6206725dc8f746baabae92ff8b8b6
+      internalID: 511224539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_40
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 178
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8eb34f85f85ed84da896bbb433ddb79
+      internalID: 379380342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_41
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 178
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d8f6fd4dd92aee45a49f0311d556a47
+      internalID: 39548520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_42
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 178
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ecfc58171b629949b41a29d107cde6f
+      internalID: 400070919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_43
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 178
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1ff5033cfca2db48bac825af099f105
+      internalID: -673276292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_44
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 178
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd6b9d292bfdbdf4791611c952fc312a
+      internalID: -978339939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_45
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 158
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d64d54345641e4da2c684f851c96f1
+      internalID: 995872899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_46
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 158
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f72500149c54c640a99b2df119f8c5a
+      internalID: 1735121930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_47
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 158
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e4a84acd1f08024bb0d9e0c288aaa63
+      internalID: 366482505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_48
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 158
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0658ef12935689428a000aad374c71d
+      internalID: -1178259198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_49
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 158
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 734175c6b1d6e8141b33447a768cb880
+      internalID: -329205558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_50
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 158
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cca29efaf745f4e4aaff11bcf1a08b6c
+      internalID: 439713942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_51
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 158
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e09b96f047ce63d49a159595dab9f151
+      internalID: -123991302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_52
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 158
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a9ca783feb68ab4aa438c15f7594c21
+      internalID: -1269995998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_53
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 158
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb289a85642250b4a9df9c177f076554
+      internalID: 1828502020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_54
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 138
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a717a1be80efe4a9f7f8535f9e0c20
+      internalID: 1144915161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_55
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 138
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd065de621df74c409224a974621ac4c
+      internalID: 479919581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_56
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 138
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef7e79598103fcd44b7f163f1d988c4e
+      internalID: 1202804987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_57
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 138
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f60913a9aa014e4ab9bad52c7405854
+      internalID: -919654638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_58
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 138
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba39435aa20620045979e23d9685501f
+      internalID: -1596822995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_59
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 138
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a7ab051faddc1a4488da94e0b118c58
+      internalID: 1464388779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_60
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 138
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5125e4bbf5ce25d469352cb5feb1f03b
+      internalID: -374252913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_61
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 138
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3869d1a52e6c643b2f0a1d01616666
+      internalID: -1324780226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_62
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 138
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c1f647a4c417f439f4960a5bb4e218
+      internalID: -1206324134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_63
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 118
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cac57d3842133f448b9e80ce58e004b
+      internalID: 628678966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_64
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 118
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 403853d8dcdce6944adc35614b1a4f4c
+      internalID: -491910471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_65
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 118
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b13c85fcb87157746962125a894899ca
+      internalID: -410910670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_66
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 118
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b322e93e6d01664f9543f45603ccf62
+      internalID: -674873126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_67
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 118
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 309b9915bca2803479963a2b6901c89b
+      internalID: 1194735609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_68
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 118
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef1610872d1ad6846aed47271c9559ce
+      internalID: 1612611035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_69
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 118
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4851aed21912404f8a9ed37b541e08d
+      internalID: 1560113540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_70
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 118
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca00fe0f8580a814c816aa0ad2c9fa54
+      internalID: -805836011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_71
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 118
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c45070f4ba8eb7c4a97b364d3a30d411
+      internalID: -645575426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_72
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 98
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb2e86c15b19eb4982ab9a91e5a948e
+      internalID: -268775232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_73
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 98
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe9709c743b27b24ca74272c25234211
+      internalID: 453540873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_74
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 98
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc4f3d693c6eb144b541018020b93b5
+      internalID: 1643084453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_75
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 98
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ad719c03e7e7a4b8d496d63166f22b
+      internalID: 1346141804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_76
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 98
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ecb114a4574b1941abfce79a47c4a5e
+      internalID: 409031051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_77
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 98
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b4829703333e34a82733ff795f2ef0
+      internalID: 807893432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_78
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 98
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9290b46acea97a34fb15b37276b7b4f7
+      internalID: -618425547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_79
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 98
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba74f52de4c4a904d9d90d0738f70a6e
+      internalID: -994171725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_80
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 98
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40948caa6852d5140b2d52d95801f2ea
+      internalID: 2140264695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_81
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 78
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea991bf0a8bc5f246ac36f6faeee3196
+      internalID: 622877800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_82
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 78
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93c2c61551bb2b4aa76cd22c7e12991
+      internalID: -1933910907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_83
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 78
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b24bd31c744aa4942b3931071bb860d3
+      internalID: -165942141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_84
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 78
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e03e9eeee5930b4787dde7684625087
+      internalID: -807372574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_85
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 78
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 831e54c8ffb35ca47b7944c06142f544
+      internalID: 1748469578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_86
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 78
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c657b60171bca624593282781caed3d6
+      internalID: 1807473395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_87
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 78
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c04d0a08ff53fd40b353861567b7c63
+      internalID: 13702120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_88
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 78
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a5e3950dacd9e54d9c1b786dfc5f1cb
+      internalID: -495433586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_89
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 78
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50974c920826487478e30bb6c85061bf
+      internalID: 708707150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_90
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 58
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a350020bbc2639a45b9144b26c2619e5
+      internalID: -51612330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_91
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 58
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db4bd6228e161a418c37b3de33217a0
+      internalID: -328989952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_92
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 58
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1002e16fa9514e548a8d6c7a7f4596b6
+      internalID: 557302608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_93
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 58
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e66ca39dfc2f4840879c3e19b95296f
+      internalID: 422802949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_94
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 58
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2736d7f8779100d43a1801f521ea7788
+      internalID: -1473217440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_95
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 58
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0a4d9e2eb223134f8a021141a118765
+      internalID: 1518386064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_96
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 58
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 330bbdc191877414dbc95fe31024f203
+      internalID: -737571058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_97
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 58
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c21b81ee0062e49815c30b74cbcc27
+      internalID: 1233108790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_98
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 58
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31188d963312f1244aec793cc9648d53
+      internalID: 313181708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_99
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 38
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f18929e3b9e1c4bb802a1d9ba7b686
+      internalID: -700475634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_100
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 38
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efdeb2505584c6746bcfc924500afd41
+      internalID: -265358808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_101
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 38
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7366538033c65043921a4e98544c5a7
+      internalID: -1750547573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_102
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 38
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15584672940fbf54a9d9b5f68134492a
+      internalID: -1148904482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_103
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 38
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76f32409e0df5bb4cbb0cd71d5f49ed9
+      internalID: -639923340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_104
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 38
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 418f510c925f92245b22c968844442a3
+      internalID: -2089050876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_105
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 38
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f51284be79b0b24f8d31db21d8cbcaa
+      internalID: 2145502221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_106
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 38
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1857338d583f274aadf6881fec659a5
+      internalID: -1106227809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_107
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 38
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f2ae643e3152d42b65791c3c9162ef
+      internalID: -648900833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_108
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 18
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 020c766b0e50da844870da6d293ed86e
+      internalID: -188150682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_109
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 18
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e906d8b1b4d6cd542bfc3e7605ff415b
+      internalID: -772690737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_110
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 18
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58635fe253abbba48bfa85d4a3bef066
+      internalID: -1168293994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_111
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 18
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80fd16726f85eeb44b28ec23d9714f76
+      internalID: 985573783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_112
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 18
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef9f0315a5243b49b84ea0d890d62b5
+      internalID: -114819929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_113
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 18
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b828211722dca4b419de5b17cfb79b1b
+      internalID: -313474044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_114
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 18
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b7243191cbad44f826ca5cf9cceb21
+      internalID: 1938247054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_115
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 18
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30c8c08a4158f34cb8531331ab8460a
+      internalID: -1001613781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: she chuang--is_116
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 18
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c0a46bfabd955479ca51200e7266e0
+      internalID: 762044325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      she chuang--is_0: 1488045185
+      she chuang--is_1: 1710040735
+      she chuang--is_10: 519562399
+      she chuang--is_100: -265358808
+      she chuang--is_101: -1750547573
+      she chuang--is_102: -1148904482
+      she chuang--is_103: -639923340
+      she chuang--is_104: -2089050876
+      she chuang--is_105: 2145502221
+      she chuang--is_106: -1106227809
+      she chuang--is_107: -648900833
+      she chuang--is_108: -188150682
+      she chuang--is_109: -772690737
+      she chuang--is_11: 1064162403
+      she chuang--is_110: -1168293994
+      she chuang--is_111: 985573783
+      she chuang--is_112: -114819929
+      she chuang--is_113: -313474044
+      she chuang--is_114: 1938247054
+      she chuang--is_115: -1001613781
+      she chuang--is_116: 762044325
+      she chuang--is_12: 332310856
+      she chuang--is_13: -984644848
+      she chuang--is_14: -2037996801
+      she chuang--is_15: -1377065415
+      she chuang--is_16: -1391258409
+      she chuang--is_17: 1206916109
+      she chuang--is_18: -1273945036
+      she chuang--is_19: 1349673088
+      she chuang--is_2: 1926100328
+      she chuang--is_20: -985497134
+      she chuang--is_21: 1513130899
+      she chuang--is_22: -2096246783
+      she chuang--is_23: -228090410
+      she chuang--is_24: 1040703380
+      she chuang--is_25: 690229322
+      she chuang--is_26: 1093401080
+      she chuang--is_27: 772842876
+      she chuang--is_28: 385593561
+      she chuang--is_29: -918478778
+      she chuang--is_3: 56192921
+      she chuang--is_30: -1114071051
+      she chuang--is_31: -652902843
+      she chuang--is_32: -881583036
+      she chuang--is_33: -2018562168
+      she chuang--is_34: 1376274945
+      she chuang--is_35: -579520599
+      she chuang--is_36: -1381544397
+      she chuang--is_37: 218620882
+      she chuang--is_38: 1657098584
+      she chuang--is_39: 511224539
+      she chuang--is_4: -712138664
+      she chuang--is_40: 379380342
+      she chuang--is_41: 39548520
+      she chuang--is_42: 400070919
+      she chuang--is_43: -673276292
+      she chuang--is_44: -978339939
+      she chuang--is_45: 995872899
+      she chuang--is_46: 1735121930
+      she chuang--is_47: 366482505
+      she chuang--is_48: -1178259198
+      she chuang--is_49: -329205558
+      she chuang--is_5: -301452466
+      she chuang--is_50: 439713942
+      she chuang--is_51: -123991302
+      she chuang--is_52: -1269995998
+      she chuang--is_53: 1828502020
+      she chuang--is_54: 1144915161
+      she chuang--is_55: 479919581
+      she chuang--is_56: 1202804987
+      she chuang--is_57: -919654638
+      she chuang--is_58: -1596822995
+      she chuang--is_59: 1464388779
+      she chuang--is_6: -629755307
+      she chuang--is_60: -374252913
+      she chuang--is_61: -1324780226
+      she chuang--is_62: -1206324134
+      she chuang--is_63: 628678966
+      she chuang--is_64: -491910471
+      she chuang--is_65: -410910670
+      she chuang--is_66: -674873126
+      she chuang--is_67: 1194735609
+      she chuang--is_68: 1612611035
+      she chuang--is_69: 1560113540
+      she chuang--is_7: 2020541021
+      she chuang--is_70: -805836011
+      she chuang--is_71: -645575426
+      she chuang--is_72: -268775232
+      she chuang--is_73: 453540873
+      she chuang--is_74: 1643084453
+      she chuang--is_75: 1346141804
+      she chuang--is_76: 409031051
+      she chuang--is_77: 807893432
+      she chuang--is_78: -618425547
+      she chuang--is_79: -994171725
+      she chuang--is_8: -93472966
+      she chuang--is_80: 2140264695
+      she chuang--is_81: 622877800
+      she chuang--is_82: -1933910907
+      she chuang--is_83: -165942141
+      she chuang--is_84: -807372574
+      she chuang--is_85: 1748469578
+      she chuang--is_86: 1807473395
+      she chuang--is_87: 13702120
+      she chuang--is_88: -495433586
+      she chuang--is_89: 708707150
+      she chuang--is_9: 1041879916
+      she chuang--is_90: -51612330
+      she chuang--is_91: -328989952
+      she chuang--is_92: 557302608
+      she chuang--is_93: 422802949
+      she chuang--is_94: -1473217440
+      she chuang--is_95: 1518386064
+      she chuang--is_96: -737571058
+      she chuang--is_97: 1233108790
+      she chuang--is_98: 313181708
+      she chuang--is_99: -700475634
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

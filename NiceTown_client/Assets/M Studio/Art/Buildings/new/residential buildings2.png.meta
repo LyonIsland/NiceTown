@@ -1,0 +1,4579 @@
+fileFormatVersion: 2
+guid: 3501a1f9af8a1364c83e5ce8f1369572
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: residential buildings2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 338
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca47f342993cfb4db8a2aced8f8cbb4
+      internalID: -392846767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 338
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbba5f6782cc3674895fa63c291f6184
+      internalID: -209013111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_2
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 338
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 757c9eecd7f8ff1419472419d65a306b
+      internalID: 533855278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_3
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 338
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b85bbbd0a33e0345b4216a29b616af4
+      internalID: 530794909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_4
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 338
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4799660f4d87ee3489f65cd0a875a240
+      internalID: -958324926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_5
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 338
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c767600c3c4824b89d1c7a02713f4f
+      internalID: 811381359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_6
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 338
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b62abe087c070f2489ca3cc5b2e4feec
+      internalID: 606094971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_7
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 338
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f2fd548bb6a6244bb8e318ecfbbc5a6
+      internalID: -1215410073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_8
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 338
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b3ec3b2496483147b3d8c98357c214c
+      internalID: -1785968068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_9
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 338
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71fc6ce9978133c48b368e188b6f2b73
+      internalID: 700413266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_10
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 338
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85aae488a9db3f34ea2f7865c63b0873
+      internalID: 506967208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_11
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 338
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 105ed1db39489cf4ca4cbd98feb8d31e
+      internalID: 1543516877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 318
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2073c48cf004da84e98bc49428606fe4
+      internalID: -203052095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_13
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 318
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea1cbfc72d29674a859f5d8632eca4f
+      internalID: 1943323934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_14
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 318
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 813348f452ae1ce4f994db14d4b6ca8b
+      internalID: 1500245603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_15
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 318
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b63613bf24ec745ad36ac0cb5f602c
+      internalID: 642864005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_16
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 318
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 256531c10485d274893398cdab6c9602
+      internalID: -416372984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_17
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 318
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90f04a167025f054a9a5ac763aed53ec
+      internalID: 718524211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_18
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 318
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e95123003ca5bc749b2d9a31d461eb37
+      internalID: 1976504213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_19
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 318
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f69ef7d703fd7ff49a17e4602fe1a0f8
+      internalID: -1840554828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_20
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 318
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d58630e512a344995b261a39f104da
+      internalID: 1266935804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_21
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 318
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 948ba7a1ea6f3b241ae579a53e733d8a
+      internalID: 666752261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_22
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 318
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 223cf00b02d085342a767c57cb5eb4fb
+      internalID: 1830418700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_23
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 318
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d025ecdd1097fb747a3a3410b002a9a2
+      internalID: -2076057240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 298
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c500ea1da6212b142a5f6a31e94bc65a
+      internalID: 376723490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_25
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 298
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f32cfc85b70714e9fc5cf2f2894eb0
+      internalID: 1366190720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_26
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 298
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba95ca9889676e4ea42b687a93af094
+      internalID: 989016265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_27
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 298
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf937a3332a3a294683d50b365ce2049
+      internalID: -655794508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_28
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 298
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e9d420398fa0e34786ce840eb768adf
+      internalID: -1564235447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_29
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 298
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20dd190e1478994d86bc329a71f8f48
+      internalID: -507591862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_30
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 298
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ed1be256cf28947b7723522dbd993e
+      internalID: 1658971108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_31
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 298
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29bb9ba5b6b32f245bf1e4a89d43ad31
+      internalID: -1662925311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_32
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 298
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600eac47101e5f14897cf443574aa936
+      internalID: -1277251926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_33
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 298
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd9401f845a402f49b0afd20b9557ed9
+      internalID: 1836408374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_34
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 298
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32bdb637bd1cd16489b5d93dae90ce9a
+      internalID: -497188850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_35
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 298
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7efe970282dc5f4cba13216a3c0468b
+      internalID: -1128740005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 278
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d49f537b728b34bb32354ac8728688
+      internalID: -131458497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_37
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 278
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97e2446aac53c440bd5a60eb5f2bab7
+      internalID: 75574739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_38
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 278
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 826e0836676cdd24f8e7fcc6e1d09e23
+      internalID: 1764738379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_39
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 278
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a6436021d78a64eb2fb89369cf620a
+      internalID: -1307125301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_40
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 278
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f342be6e42c964ab98bebbec25b8db
+      internalID: -494823142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_41
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 278
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 948e08e7d2b4f3f4c8d1c907ea539428
+      internalID: 681202826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_42
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 278
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd81c9dd88085f64fb29a2c9de849641
+      internalID: 46798263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_43
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 278
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae978f02c94d87643b6740afd1743f79
+      internalID: 689310028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_44
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 278
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3765ece77f952404eb2798a4161fef27
+      internalID: -1987069593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_45
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 278
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b58030a08c60d794da82e12963ee2ffe
+      internalID: 1641750840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_46
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 278
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd3347dfd52b40245a86f6c15d761b26
+      internalID: -815922323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_47
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 278
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aeb7eeec3130e94d8f549a16ab5e855
+      internalID: 1448921602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 258
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce695c621d41194f96e40591be1b07a
+      internalID: 50278522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_49
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 258
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab223a66b2b85f74a92be7da9f4df2af
+      internalID: 2101269354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_50
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 258
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab1e3b88d0593024e9c1064a23674ad4
+      internalID: -1414267077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_51
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 258
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51cca00b65094794dbacf7ce6cbffbb8
+      internalID: -330950872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_52
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 258
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c66b75bb49aab540a5f17bb9629ba08
+      internalID: 255419018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_53
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 258
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a190a9564d23742947288b18d31fbc
+      internalID: -550432524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_54
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 258
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c20e7aa5d720704fa5bb90b56f10457
+      internalID: 1643719886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_55
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 258
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c94fc240a3adb4bb29cc96fb94eb43
+      internalID: -670195967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_56
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 258
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a9620a86bf91a448ddf8c8f3ff3892
+      internalID: 2054943761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_57
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 258
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16cc34dadf3e52b478e22a0034441d2a
+      internalID: 842887976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_58
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 258
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 985c08828ee151748b6553685aa6f47e
+      internalID: -1821489688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_59
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 258
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df06830a5da9c5447932af9b7f3e152b
+      internalID: -506907528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 238
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e2a916ef7470f94785bc9c42bd3543d
+      internalID: 1332738363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_61
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 238
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ed4b342dc99af945a97b3175c7c6c2d
+      internalID: -1008837679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_62
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 238
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c4a125c378fb14c9d473e31197fde1
+      internalID: -2108954716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_63
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 238
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 171e1e6913725ea47ae501cc77529faa
+      internalID: 728955656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_64
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 238
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec8d3b4012817414f868052f3c04f5d4
+      internalID: 126320343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_65
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 238
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56174da57b91bb4419c4053020479621
+      internalID: -1510815807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_66
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 238
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 844b3b3447186054aa19c463a9056403
+      internalID: -64621228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_67
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 238
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40a4937b5ef0c304e84bea9f090fc1fd
+      internalID: -432790937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_68
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 238
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be15018116a4ab04abb35c4b7a9e6e0c
+      internalID: 1028342843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_69
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 238
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a11884ecf77cb44a9a9a91e49523cff
+      internalID: 1121279823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_70
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 238
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc689c43dcc9a8c4ea041f61b1b0a9ae
+      internalID: -168671261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_71
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 238
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d466c5e715f71094289ad8c6f3c3dabb
+      internalID: -171252563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 218
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc8efae2864c34448ac31ed80e9b507
+      internalID: -33454463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_73
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 218
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff1ecdadd8141b4993c67a66df30f44
+      internalID: -92864292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_74
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 218
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af099dafbfc9e3419e202dfb7e3a3b9
+      internalID: -1716324850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_75
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 218
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b977832a236219e45b2fac3956189d9a
+      internalID: 1651667689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_76
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 218
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 328e52ccecf34a249a214f236a0d7215
+      internalID: 98286730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_77
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 218
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 376ea55c94b5709408090b0fbd9513e3
+      internalID: -1376978027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_78
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 218
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e125a65cf25e0f42901e756c7b0a7dc
+      internalID: 864039194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_79
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 218
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed86ab738e210824785af97680d44a0d
+      internalID: -104412523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_80
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 218
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5429345496a6b4646a05f6c4de027cb8
+      internalID: 1909458427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_81
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 218
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7849afb0b8c1214595f25d6a1ffb90c
+      internalID: -1642648998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_82
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 218
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b5d0ccbf9a9d5e43882fc02d4fca3bd
+      internalID: 2005726166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_83
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 218
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bb56698a90d211439b0b7df27ef764b
+      internalID: -692738690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 198
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d335e47922320394b8af9d8659d0f4e1
+      internalID: -1288234639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_85
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 198
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f19d0a86f2133459f1fb7a1694d6c3
+      internalID: 1099644886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_86
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 198
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4cfae25f98285740b0a4a72d1f4be23
+      internalID: 1663769789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_87
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 198
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c3da26399e25d4e908ae65e700c921
+      internalID: 681051790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_88
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 198
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ee5844a68c3fc4b9e2d60dada06e42
+      internalID: -1171076084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_89
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 198
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fde970f010c2dc40a62c6e0aab63503
+      internalID: -945696649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_90
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 198
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 320895d3477e48e458d0fc2bab0af2d1
+      internalID: 491745232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_91
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 198
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db951bbb3a30901419d652c44a1e1eb6
+      internalID: -1493583453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_92
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 198
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b03d2ca8e257a4c8e84d2ceaaee0b4
+      internalID: 2092097490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_93
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 198
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2375ab40edd1b41448b1854e662eaefd
+      internalID: 663364518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_94
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 198
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9cf8adcbd68af14085b4bd22306d6d2
+      internalID: 1523585347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_95
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 198
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc9f7f71dc1de642be7e3395dafd513
+      internalID: -1861061916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 178
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc58b0448ff7a5458a402890fe4ad10
+      internalID: 273684009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_97
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 178
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 822cd5c07a0e2b3469688964c0ffe655
+      internalID: -1853663235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_98
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 178
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a6a59cec22497e42950cd9a7fbdaddb
+      internalID: -352549921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_99
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 178
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b085a330aca31ad4086a1d86cf30c15d
+      internalID: -962423695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_100
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 178
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b6deb127612f54985c4cd4cf2a71c9
+      internalID: -326767118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_101
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 178
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 847c3a919b15a8647a8051c413658037
+      internalID: 56350339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_102
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 178
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b6ab50d2516be445a085698c4817145
+      internalID: 1696726680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_103
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 178
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa3cb4a02cc9b94183311ff9e1aff68
+      internalID: -134261900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_104
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 178
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a518a536e9b2284e818177289360e81
+      internalID: 580112085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_105
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 178
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c3b92857946da4438a7b6c8ce97442d
+      internalID: 968600334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_106
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 178
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae394c00b467134a886c38737b4061c
+      internalID: 1287033380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_107
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 178
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b105b9ae9216f94cb0ee09d8d8a4ee0
+      internalID: 1000653549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 158
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bfd6a614652f984f8b6a8705765a222
+      internalID: 1120619959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_109
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 158
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc22023fc28a449478e9819528fc474d
+      internalID: 354483970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_110
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 158
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55bfa85e03927c4eb2e38b867ccafa8
+      internalID: -203329188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_111
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 158
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fd7c6fb83fbab147ac8d4b80317c828
+      internalID: 670240057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_112
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 158
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66cf7556ca689134db96177ddc04bbab
+      internalID: 838711478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_113
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 158
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 038dbd3fdafae1b45988817ba98fc1d7
+      internalID: -356264026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_114
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 158
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6590260c50a5855409b9b655b95dc55f
+      internalID: 367840856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_115
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 158
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bcec9afc76824c41a128f554cc680c4
+      internalID: 240189688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_116
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 158
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cd63f0899dc5f748b1c9191c31d5690
+      internalID: -862946371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_117
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 158
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b0de652fe6248c43aefb2112dc0867a
+      internalID: -1334889895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_118
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 158
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c2eff5e47dfa440a9adc10740172f2
+      internalID: -1973511838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_119
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 158
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ef16c79f7077f42a03a4a93134eaaa
+      internalID: -1753802735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 138
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f874bbe6b9fbf1f4999ef4409474ed15
+      internalID: 1092704676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_121
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 138
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b46026d1aa0b524982a1afa8e4ab5f1
+      internalID: -1465701455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_122
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 138
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11cd04ed76d49f84492498250c8b2c16
+      internalID: 1018657006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_123
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 138
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15e686804a2f92544af382fc38b897c5
+      internalID: -1834953010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_124
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 138
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd2c23122fd807148921ca7bbbca363c
+      internalID: -1495905526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_125
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 138
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5feaf1b838a31c428928edabc6a71bc
+      internalID: 1781702126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_126
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 138
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d85952d0f5a9c9a469c75c2d05337c0e
+      internalID: 1333151384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_127
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 138
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfdbd4139cf69ad4db12768135e12852
+      internalID: -1161358540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_128
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 138
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00b1a2527931de4eb300fc98ec353aa
+      internalID: -1322162619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_129
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 138
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b59cd0407366e44b1dbbecec85e16c
+      internalID: 2147182487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_130
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 138
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fde6ecf53b896948a6f400247e40430
+      internalID: -1477828501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_131
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 138
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed78375d8ff1eb74b97060074bd5d196
+      internalID: -322035155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_132
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 118
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcf35d9a882a99e499a84a6f883721cd
+      internalID: -1943580692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_133
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 118
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9afd7cbaa0e6944ba09704045bc1628
+      internalID: -700833096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_134
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 118
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea505f352734514987c2d7bd1968b3e
+      internalID: -385634695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_135
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 118
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35cfb95598805a2479b381e2fd1d1561
+      internalID: 1766483106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_136
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 118
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9b2da6e4448bc7458c4958bc540494a
+      internalID: -1226039409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_137
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 118
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4de91245dc3a484bbe73d95f89731e9
+      internalID: 247298627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_138
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 118
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 928b76db204e1814dbccc9260ea89d04
+      internalID: 947264382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_139
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 118
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df98059c161c93d47a7297e2fb8931aa
+      internalID: -1652007604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_140
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 118
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f5183d7eed4ef4fae4024930caf27d
+      internalID: 859877239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_141
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 118
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea09e3614f85b0848ae6c13faaae6efd
+      internalID: -557150144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_142
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 118
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbbf191ec2441c841b012e78a188edc5
+      internalID: 1417139911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_143
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 118
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04484b582f0f0034f8d52ecb5f44c726
+      internalID: 2002189492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_144
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 98
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83ae13b9b4d20f74c91726df29929882
+      internalID: 898518909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_145
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 98
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a63c52cb4a7e75d44b5404ef4380cc06
+      internalID: -1834251706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_146
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 98
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b04d7908ad6b0c14391ce3601c0b2f83
+      internalID: 95308827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_147
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 98
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 826ee74ca5cd17d429c1381d7c9d5df3
+      internalID: 728640927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_148
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 98
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae9bcc7f512d4ca4bb5b586343bc8abc
+      internalID: 629519044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_149
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 98
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ea800e859b956429d52818ad321d9c
+      internalID: 1495035331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_150
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 98
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad8ee8a7e7388042a5935f07257350f
+      internalID: -1022801725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_151
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 98
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef4c8a5afa73b534b9782781dfa10a82
+      internalID: 1510681387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_152
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 98
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4e5c9dee24d2f644bfa96da7f7ee169
+      internalID: 867408479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_153
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 98
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ded466f7e394c47bf6cd2c14bdfaa7
+      internalID: -150635622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_154
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 98
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b09456de0c469e24cb716317083a93e7
+      internalID: 1374717875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_155
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 98
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335df1a8fadaa6c46aae6834e2c7d378
+      internalID: -209241656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_156
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 78
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 642fccb067b1906488be7d349c91810e
+      internalID: 876923673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_157
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 78
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9781d1f1c526eaa4ea1f5c6e15d3f357
+      internalID: -528052002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_158
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 78
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f42886715829caf47a44072f9fe145e1
+      internalID: -2114814292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_159
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 78
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5976511f9491d0b418d4ab6cde6d3864
+      internalID: -1120070968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_160
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 78
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b35a27bbfc6ba854a9cfc13a4a130915
+      internalID: -1055880250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_161
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 78
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66541ff2dac31474c963ae18893d4956
+      internalID: -1169971609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_162
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 78
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 015adc7d4fea13346821d26cf42f2647
+      internalID: 1343561061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_163
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 78
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 649063df0872be14a97b42126ef55a21
+      internalID: -803006502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_164
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 78
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac95d666585b554b8e179694650d83f
+      internalID: 1689218481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_165
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 78
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f10b475539a5d4c4d8236ffdc032d286
+      internalID: -1787988699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_166
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 78
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92ccadf3867e178458312da1cdd5f575
+      internalID: 201108976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_167
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 78
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cff402c7343508468262ad06b95b705
+      internalID: -1454609573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_168
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 58
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc956f0c879c3a4b80fa4bd0e7ed84b
+      internalID: 1453298605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_169
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 58
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d84bccd34bc7e409aa8c33606529d2
+      internalID: 792579337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_170
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 58
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a3e34e489ce0a4295f2fc12162aa13
+      internalID: -957014153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_171
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 58
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d54084b9b52de4dbad2a4e88cc9ba5
+      internalID: -1285073509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_172
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 58
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5a5d680e6f66964f9ef55c4da0dcd19
+      internalID: 489060503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_173
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 58
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c91af410ffaed44af7cbd27c71e858
+      internalID: 392987965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_174
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 58
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a165613b14513a241a14365a7dd58dcb
+      internalID: 523780361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_175
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 58
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a5206e335f1a24583cfc3f99b912e2
+      internalID: -228101512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_176
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 58
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8182e5477ed0c5478f81883208e8069
+      internalID: 219176271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_177
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 58
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5375aa0d1c707f644a90d9c760721966
+      internalID: -1322766462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_178
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 58
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a61040eb1b999458ec4ce76af4d4e1
+      internalID: -1265159392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_179
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 58
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07713967a4d5f6642a106c194012928a
+      internalID: 1228093652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_180
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 38
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fcc50d840db10b409cdf195d7f106db
+      internalID: 2025667600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_181
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 38
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f80ca6a6c1b06643afa903f5721f2d8
+      internalID: -2031027642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_182
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 38
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738cabbce03b65d458c15fa9188e9ded
+      internalID: -1262432971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_183
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 38
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4326889690696b3469acb03c02f73fa5
+      internalID: 1450761459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_184
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 38
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 347a3f7365c79454fa2a454232eac8e9
+      internalID: -1666606711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_185
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 38
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc97f369953df24b8b56b5d455cdc1a
+      internalID: -2022262533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_186
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 38
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a6e63ad1e606294f9f8469e7e918da6
+      internalID: -1245409832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_187
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 38
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 157c4fb6597b39c419d8b01228b864f6
+      internalID: -1401456729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_188
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 38
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae4713cbb3e70a41822c48667b2a6fb
+      internalID: 222139878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_189
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 38
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a96e458035b56b449b94def1ceb31ecd
+      internalID: 1405223624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_190
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 38
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d33b2ccbcaf7124eb19e00d5de2e248
+      internalID: 678917004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_191
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 38
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaef7cd785fb8de46a8216d32881b6ad
+      internalID: -1931659310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_192
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 18
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 949160aac26b24a4b8faa421d827ef28
+      internalID: -1462558853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_193
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 18
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b69e091dbe61f848951e5e53ac12b60
+      internalID: -946982114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_194
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 18
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 498a1329c5e68c74f90c54ab9135ffde
+      internalID: -678198366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_195
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 18
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd9c3bf2157994443b6efb0c8a2b8c6f
+      internalID: -1682121449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_196
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 18
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fb60abb17a42da49bf75fd9bfa09d39
+      internalID: 501779231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_197
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 18
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e838a4eb19b6343b6a8c33d968e8d0
+      internalID: 943479833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_198
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 18
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2db3785b54681304b8335e5467de5e5c
+      internalID: 587095166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_199
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 18
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4627779f5bbaf5a44924a3e121535263
+      internalID: -1095101321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_200
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 18
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecfda0b86546a39469d46809e0457e8a
+      internalID: -795141712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: residential buildings2_201
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 18
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d000891d3c8c4944902425f5bcd4021
+      internalID: 1441554423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      residential buildings2_164: 1689218481
+      residential buildings2_115: 240189688
+      residential buildings2_135: 1766483106
+      residential buildings2_18: 1976504213
+      residential buildings2_9: 700413266
+      residential buildings2_160: -1055880250
+      residential buildings2_137: 247298627
+      residential buildings2_10: 506967208
+      residential buildings2_129: 2147182487
+      residential buildings2_21: 666752261
+      residential buildings2_71: -171252563
+      residential buildings2_128: -1322162619
+      residential buildings2_62: -2108954716
+      residential buildings2_33: 1836408374
+      residential buildings2_48: 50278522
+      residential buildings2_181: -2031027642
+      residential buildings2_64: 126320343
+      residential buildings2_200: -795141712
+      residential buildings2_46: -815922323
+      residential buildings2_185: -2022262533
+      residential buildings2_99: -962423695
+      residential buildings2_65: -1510815807
+      residential buildings2_158: -2114814292
+      residential buildings2_66: -64621228
+      residential buildings2_8: -1785968068
+      residential buildings2_24: 376723490
+      residential buildings2_168: 1453298605
+      residential buildings2_189: 1405223624
+      residential buildings2_36: -131458497
+      residential buildings2_136: -1226039409
+      residential buildings2_119: -1753802735
+      residential buildings2_47: 1448921602
+      residential buildings2_19: -1840554828
+      residential buildings2_85: 1099644886
+      residential buildings2_23: -2076057240
+      residential buildings2_58: -1821489688
+      residential buildings2_15: 642864005
+      residential buildings2_145: -1834251706
+      residential buildings2_178: -1265159392
+      residential buildings2_120: 1092704676
+      residential buildings2_154: 1374717875
+      residential buildings2_169: 792579337
+      residential buildings2_150: -1022801725
+      residential buildings2_3: 530794909
+      residential buildings2_113: -356264026
+      residential buildings2_87: 681051790
+      residential buildings2_26: 989016265
+      residential buildings2_45: 1641750840
+      residential buildings2_50: -1414267077
+      residential buildings2_132: -1943580692
+      residential buildings2_188: 222139878
+      residential buildings2_81: -1642648998
+      residential buildings2_84: -1288234639
+      residential buildings2_52: 255419018
+      residential buildings2_102: 1696726680
+      residential buildings2_0: -392846767
+      residential buildings2_49: 2101269354
+      residential buildings2_30: 1658971108
+      residential buildings2_2: 533855278
+      residential buildings2_17: 718524211
+      residential buildings2_35: -1128740005
+      residential buildings2_166: 201108976
+      residential buildings2_176: 219176271
+      residential buildings2_141: -557150144
+      residential buildings2_104: 580112085
+      residential buildings2_6: 606094971
+      residential buildings2_53: -550432524
+      residential buildings2_44: -1987069593
+      residential buildings2_194: -678198366
+      residential buildings2_12: -203052095
+      residential buildings2_51: -330950872
+      residential buildings2_123: -1834953010
+      residential buildings2_91: -1493583453
+      residential buildings2_93: 663364518
+      residential buildings2_7: -1215410073
+      residential buildings2_40: -494823142
+      residential buildings2_61: -1008837679
+      residential buildings2_32: -1277251926
+      residential buildings2_179: 1228093652
+      residential buildings2_31: -1662925311
+      residential buildings2_60: 1332738363
+      residential buildings2_34: -497188850
+      residential buildings2_142: 1417139911
+      residential buildings2_167: -1454609573
+      residential buildings2_193: -946982114
+      residential buildings2_180: 2025667600
+      residential buildings2_68: 1028342843
+      residential buildings2_199: -1095101321
+      residential buildings2_73: -92864292
+      residential buildings2_198: 587095166
+      residential buildings2_196: 501779231
+      residential buildings2_118: -1973511838
+      residential buildings2_165: -1787988699
+      residential buildings2_107: 1000653549
+      residential buildings2_27: -655794508
+      residential buildings2_171: -1285073509
+      residential buildings2_197: 943479833
+      residential buildings2_97: -1853663235
+      residential buildings2_38: 1764738379
+      residential buildings2_20: 1266935804
+      residential buildings2_184: -1666606711
+      residential buildings2_25: 1366190720
+      residential buildings2_131: -322035155
+      residential buildings2_111: 670240057
+      residential buildings2_151: 1510681387
+      residential buildings2_130: -1477828501
+      residential buildings2_96: 273684009
+      residential buildings2_108: 1120619959
+      residential buildings2_140: 859877239
+      residential buildings2_109: 354483970
+      residential buildings2_163: -803006502
+      residential buildings2_177: -1322766462
+      residential buildings2_92: 2092097490
+      residential buildings2_172: 489060503
+      residential buildings2_75: 1651667689
+      residential buildings2_138: 947264382
+      residential buildings2_144: 898518909
+      residential buildings2_183: 1450761459
+      residential buildings2_124: -1495905526
+      residential buildings2_14: 1500245603
+      residential buildings2_76: 98286730
+      residential buildings2_54: 1643719886
+      residential buildings2_70: -168671261
+      residential buildings2_28: -1564235447
+      residential buildings2_133: -700833096
+      residential buildings2_156: 876923673
+      residential buildings2_94: 1523585347
+      residential buildings2_101: 56350339
+      residential buildings2_155: -209241656
+      residential buildings2_1: -209013111
+      residential buildings2_69: 1121279823
+      residential buildings2_143: 2002189492
+      residential buildings2_121: -1465701455
+      residential buildings2_173: 392987965
+      residential buildings2_116: -862946371
+      residential buildings2_122: 1018657006
+      residential buildings2_90: 491745232
+      residential buildings2_88: -1171076084
+      residential buildings2_13: 1943323934
+      residential buildings2_127: -1161358540
+      residential buildings2_95: -1861061916
+      residential buildings2_11: 1543516877
+      residential buildings2_74: -1716324850
+      residential buildings2_117: -1334889895
+      residential buildings2_83: -692738690
+      residential buildings2_159: -1120070968
+      residential buildings2_114: 367840856
+      residential buildings2_57: 842887976
+      residential buildings2_170: -957014153
+      residential buildings2_162: 1343561061
+      residential buildings2_89: -945696649
+      residential buildings2_29: -507591862
+      residential buildings2_110: -203329188
+      residential buildings2_148: 629519044
+      residential buildings2_103: -134261900
+      residential buildings2_161: -1169971609
+      residential buildings2_147: 728640927
+      residential buildings2_105: 968600334
+      residential buildings2_98: -352549921
+      residential buildings2_79: -104412523
+      residential buildings2_5: 811381359
+      residential buildings2_192: -1462558853
+      residential buildings2_16: -416372984
+      residential buildings2_42: 46798263
+      residential buildings2_126: 1333151384
+      residential buildings2_63: 728955656
+      residential buildings2_175: -228101512
+      residential buildings2_55: -670195967
+      residential buildings2_41: 681202826
+      residential buildings2_201: 1441554423
+      residential buildings2_39: -1307125301
+      residential buildings2_182: -1262432971
+      residential buildings2_146: 95308827
+      residential buildings2_112: 838711478
+      residential buildings2_78: 864039194
+      residential buildings2_106: 1287033380
+      residential buildings2_157: -528052002
+      residential buildings2_82: 2005726166
+      residential buildings2_134: -385634695
+      residential buildings2_190: 678917004
+      residential buildings2_187: -1401456729
+      residential buildings2_72: -33454463
+      residential buildings2_59: -506907528
+      residential buildings2_174: 523780361
+      residential buildings2_80: 1909458427
+      residential buildings2_22: 1830418700
+      residential buildings2_67: -432790937
+      residential buildings2_43: 689310028
+      residential buildings2_152: 867408479
+      residential buildings2_86: 1663769789
+      residential buildings2_4: -958324926
+      residential buildings2_100: -326767118
+      residential buildings2_195: -1682121449
+      residential buildings2_56: 2054943761
+      residential buildings2_125: 1781702126
+      residential buildings2_153: -150635622
+      residential buildings2_149: 1495035331
+      residential buildings2_139: -1652007604
+      residential buildings2_37: 75574739
+      residential buildings2_77: -1376978027
+      residential buildings2_186: -1245409832
+      residential buildings2_191: -1931659310
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
