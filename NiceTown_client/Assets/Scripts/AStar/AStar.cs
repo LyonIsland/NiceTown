@@ -34,11 +34,9 @@ namespace MFarm.AStar
 
             if (GenerateGridNodes(sceneName, startPos, endPos))
             {
-                Debug.Log("!");
                 //查找最短路径
                 if (FindShortestPath())
                 {
-                    Debug.Log("!!!");
                     //构建NPC移动路径
                     UpdatePathOnMovementStepStack(sceneName, npcMovementStack);
                 }

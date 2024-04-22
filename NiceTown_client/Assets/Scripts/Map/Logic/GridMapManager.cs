@@ -66,8 +66,8 @@ namespace MFarm.Map
         private void OnAfterSceneLoadedEvent()
         {
             currentGrid = FindObjectOfType<Grid>();
-            digTilemap = GameObject.FindWithTag("Dig").GetComponent<Tilemap>();
-            waterTilemap = GameObject.FindWithTag("Water").GetComponent<Tilemap>();
+            // digTilemap = GameObject.FindWithTag("Dig").GetComponent<Tilemap>();
+            // waterTilemap = GameObject.FindWithTag("Water").GetComponent<Tilemap>();
 
             if (firstLoadDict[SceneManager.GetActiveScene().name])
             {

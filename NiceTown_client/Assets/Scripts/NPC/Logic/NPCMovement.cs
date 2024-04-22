@@ -25,9 +25,9 @@ public class NPCMovement : MonoBehaviour, ISaveable
     public string StartScene { set => currentScene = value; }
 
     [Header("移动属性")]
-    public float normalSpeed = 2f;
-    private float minSpeed = 1;
-    private float maxSpeed = 3;
+    public float normalSpeed = 8f;
+    private float minSpeed = 8;
+    private float maxSpeed = 10;
     private Vector2 dir;
     public bool isMoving;
 
@@ -96,7 +96,7 @@ public class NPCMovement : MonoBehaviour, ISaveable
     {
         //ISaveable saveable = this;
         //saveable.RegisterSaveable();
-        //scheduleData.scheduleList.Add(new ScheduleDetails(7, 5, 0, 0, Season.春天, "01.Field", new Vector2Int(10,20), null, false));
+        // scheduleData.scheduleList.Add(new ScheduleDetails(0, 15, 0, 0, Season.春天, "testScene", new Vector2Int(10,20), null, false));
     }
 
     private void Update()
@@ -246,7 +246,7 @@ public class NPCMovement : MonoBehaviour, ISaveable
             float distance = Vector3.Distance(transform.position, nextWorldPosition);
             //实际移动速度
             float speed = Mathf.Max(minSpeed, (distance / timeToMove / Settings.secondThreshold));
-            Debug.Log("" + speed);
+            //Debug.Log("" + speed);
 
             if (speed <= maxSpeed)
             {
