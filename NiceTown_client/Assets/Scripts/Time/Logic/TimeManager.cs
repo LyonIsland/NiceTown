@@ -44,6 +44,8 @@ public class TimeManager : Singleton<TimeManager>, ISaveable
 
         //ISaveable saveable = this;
         //saveable.RegisterSaveable();
+        EventHandler.CallStartNewGameEvent(0);
+        EventHandler.CallAfterSceneLoadedEvent();
         gameClockPause = false;
         // EventHandler.CallGameDateEvent(gameHour, gameDay, gameMonth, gameYear, gameSeason);
         // EventHandler.CallGameMinuteEvent(gameMinute, gameHour, gameDay, gameSeason);
@@ -93,10 +95,10 @@ public class TimeManager : Singleton<TimeManager>, ISaveable
     {
         gameSecond = 0;
         gameMinute = 0;
-        gameHour = 7;
+        gameHour = 0;
         gameDay = 1;
         gameMonth = 1;
-        gameYear = 2022;
+        gameYear = 2024;
         gameSeason = Season.春天;
     }
 
@@ -173,6 +175,7 @@ public class TimeManager : Singleton<TimeManager>, ISaveable
                 }
                 EventHandler.CallGameDateEvent(gameHour, gameDay, gameMonth, gameYear, gameSeason);
             }
+            //没分钟轮询呼唤NPC进行检查
             EventHandler.CallGameMinuteEvent(gameMinute, gameHour, gameDay, gameSeason);
             //切换灯光
             EventHandler.CallLightShiftChangeEvent(gameSeason, GetCurrentLightShift(), timeDifference);

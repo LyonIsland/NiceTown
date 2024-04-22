@@ -11,6 +11,7 @@ public class GridMap : MonoBehaviour
 
     private void OnEnable()
     {
+        print("!!!!!!!!!!!!!");
         if (!Application.IsPlaying(this))//是否在运行
         {
             currentTilemap = GetComponent<Tilemap>();
@@ -24,6 +25,7 @@ public class GridMap : MonoBehaviour
     {
         if (!Application.IsPlaying(this))
         {
+            print("set up tile");
             currentTilemap = GetComponent<Tilemap>();
 
             UpdateTileProperties();
@@ -55,7 +57,7 @@ public class GridMap : MonoBehaviour
                     for (int y = startPos.y; y < endPos.y; y++)
                     {
                         TileBase tile = currentTilemap.GetTile(new Vector3Int(x, y, 0));
-
+                        print(tile);
                         if (tile != null)
                         {
                             TileProperty newTile = new TileProperty

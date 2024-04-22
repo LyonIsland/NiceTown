@@ -123,6 +123,7 @@ namespace MFarm.Map
         {
             foreach (TileProperty tileProperty in mapData.tileProperties)
             {
+                
                 TileDetails tileDetails = new TileDetails
                 {
                     girdX = tileProperty.tileCoordinate.x,
@@ -168,6 +169,7 @@ namespace MFarm.Map
         /// <returns></returns>
         public TileDetails GetTileDetails(string key)
         {
+
             if (tileDetailsDict.ContainsKey(key))
             {
                 return tileDetailsDict[key];

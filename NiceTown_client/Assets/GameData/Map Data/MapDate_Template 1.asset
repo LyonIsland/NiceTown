@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gridWidth: 200
   gridHeight: 100
-  originX: -62
-  originY: -48
-  sceneName: Template 1
+  originX: -42
+  originY: 26
+  sceneName: tongji
   tileProperties: []

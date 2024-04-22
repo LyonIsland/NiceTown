@@ -68,7 +68,6 @@ public class NPCMovement : MonoBehaviour, ISaveable
         animOverride = new AnimatorOverrideController(anim.runtimeAnimatorController);
         anim.runtimeAnimatorController = animOverride;
         scheduleSet = new SortedSet<ScheduleDetails>();
-
         foreach (var schedule in scheduleData.scheduleList)
         {
             scheduleSet.Add(schedule);
@@ -97,7 +96,7 @@ public class NPCMovement : MonoBehaviour, ISaveable
     {
         //ISaveable saveable = this;
         //saveable.RegisterSaveable();
-        scheduleData.scheduleList.Add(new ScheduleDetails(7, 5, 0, 0, Season.春天, "01.Field", new Vector2Int(10,20), null, false));
+        //scheduleData.scheduleList.Add(new ScheduleDetails(7, 5, 0, 0, Season.春天, "01.Field", new Vector2Int(10,20), null, false));
     }
 
     private void Update()
@@ -131,18 +130,18 @@ public class NPCMovement : MonoBehaviour, ISaveable
 
     private void OnGameMinuteEvent(int minute, int hour, int day, Season season)
     {
+        
         int time = (hour * 100) + minute;
         currentSeason = season;
-
         ScheduleDetails matchSchedule = null;
         foreach (var schedule in scheduleSet)
-        {
+        {   
             if (schedule.Time == time)
             {
                 if (schedule.day != day && schedule.day != 0)
                     continue;
-                if (schedule.season != season)
-                    continue;
+                // if (schedule.season != season)
+                //     continue;
                 matchSchedule = schedule;
             }
             else if (schedule.Time > time)
@@ -152,6 +151,7 @@ public class NPCMovement : MonoBehaviour, ISaveable
         }
         if (matchSchedule != null)
             BuildPath(matchSchedule);
+            //print("build path");
     }
 
     private void OnBeforeSceneUnloadEvent()
@@ -207,7 +207,7 @@ public class NPCMovement : MonoBehaviour, ISaveable
     private void Movement()
     {
         if (!npcMove)
-        {
+        { 
             if (movementSteps.Count > 0)
             {
                 MovementStep step = movementSteps.Pop();
@@ -237,7 +237,6 @@ public class NPCMovement : MonoBehaviour, ISaveable
     {
         npcMove = true;
         nextWorldPosition = GetWorldPostion(gridPos);
-
         //还有时间用来移动
         if (stepTime > GameTime)
         {
@@ -247,6 +246,7 @@ public class NPCMovement : MonoBehaviour, ISaveable
             float distance = Vector3.Distance(transform.position, nextWorldPosition);
             //实际移动速度
             float speed = Mathf.Max(minSpeed, (distance / timeToMove / Settings.secondThreshold));
+            Debug.Log("" + speed);
 
             if (speed <= maxSpeed)
             {
@@ -275,6 +275,7 @@ public class NPCMovement : MonoBehaviour, ISaveable
     /// <param name="schedule"></param>
     public void BuildPath(ScheduleDetails schedule)
     {
+
         movementSteps.Clear();
         currentSchedule = schedule;
         targetScene = schedule.targetScene;
@@ -284,6 +285,7 @@ public class NPCMovement : MonoBehaviour, ISaveable
 
         if (schedule.targetScene == currentScene)
         {
+            Debug.Log("build");
             AStar.Instance.BuildPath(schedule.targetScene, (Vector2Int)currentGridPosition, schedule.targetGridPosition, movementSteps);
         }
         else if (schedule.targetScene != currentScene)

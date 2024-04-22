@@ -9,7 +9,7 @@ public class Settings : MonoBehaviour
     public const float targetAlpha = 0.45f;     
 
     //时间相关
-    public const float secondThreshold = 0.1f;    //数值越小时间越快
+    public const float secondThreshold = 0.01f;    //数值越小时间越快
     public const int secondHold = 59;
     public const int minuteHold = 59;
     public const int hourHold = 23;
@@ -34,7 +34,7 @@ public class Settings : MonoBehaviour
     public static TimeSpan morningTime = new TimeSpan(5, 0, 0);
     public static TimeSpan nightTime = new TimeSpan(19, 0, 0);
 
-    public static Vector3 playerStartPos = new Vector3(5f, -18f, 0);
+    public static Vector3 playerStartPos = new Vector3(0f, 0f, 0);
     public const int playerStartMoney = 100;
 }
 
