@@ -16,6 +16,8 @@ public class TestCommunicate : MonoBehaviour
 
     public void SendRequest()
     {
+        //连续的并发两次请求
+        StartCoroutine(SubmitTask());
         StartCoroutine(SubmitTask());
     }
 
@@ -43,10 +45,7 @@ public class TestCommunicate : MonoBehaviour
         else
         {
             Debug.Log("Task submitted successfully");
-            // 获取任务ID
-            //string taskID = requestData["id"];
-            // 开始检查结果
-            //StartCoroutine(CheckResult(taskID));
+            StartCoroutine(CheckResult(taskId));
         }
     }
 
