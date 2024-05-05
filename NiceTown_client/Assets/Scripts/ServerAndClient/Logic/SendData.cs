@@ -10,7 +10,7 @@ using System;
 public class SendData : MonoBehaviour
 {
     public DialogueFrame.DialogueUI DialogueUI;
-    private string ServerIPAndPort="http://127.0.0.1:5002/";
+    private string ServerIPAndPort= "http://127.0.0.1:5000/submit_task";
     private string ApiMethod = string.Empty;
     private string SendPostRequest = string.Empty;
     public ChatType ChatType;
@@ -22,6 +22,7 @@ public class SendData : MonoBehaviour
     public string UserInput = string.Empty;
     public string UserId = string.Empty;
     UnityWebRequest PostRequest;//用于处理post方式的
+    UnityWebRequest GetRequest;
     public bool InitialReplySent = false;//初始请求是否发送,true代表应该发送
     public bool InitialReplyGot = false;//是否处理完成Start部分
     public bool DialogueFinished = false;//对话是否结束，true为结束，false为未结束
@@ -205,6 +206,7 @@ public class SendData : MonoBehaviour
 
         else
         {
+            StartCoroutine(CheckResult(UserId));
             //获取网站返回的
             Debug.Log("Data already sent");
             if (Status == "Start")
@@ -232,12 +234,23 @@ public class SendData : MonoBehaviour
         else
             Debug.LogError("Utterance reply is null");
     }
+
+    private IEnumerator CheckResult(string TaskID)
+    {
+        GetRequest = UnityWebRequest.Get(ServerIPAndPort + "/check_result?id=" + TaskID);
+        Debug.Log("send check");
+        yield return GetRequest.SendWebRequest();
+        if(GetRequest.result != UnityWebRequest.Result.Success)
+        {
+            Debug.LogError("error checking result:" + GetRequest.error);
+        }
+    }
     /// <summary>
     /// 用于处理/Start的api返回数据
     /// </summary>
     private void HandleStartRequest()
     {
-        ChatToReceive = ReceiveFromServer<ChatToReceive>(PostRequest.downloadHandler.text);
+        ChatToReceive = ReceiveFromServer<ChatToReceive>(GetRequest.downloadHandler.text);
         Debug.Log("Chat received is : " + ChatToReceive.content.ToString());
         InitialReplyGot = true;
 
