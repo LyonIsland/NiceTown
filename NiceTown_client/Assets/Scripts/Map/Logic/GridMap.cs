@@ -27,6 +27,7 @@ public class GridMap : MonoBehaviour
         {
             print("set up tile");
             currentTilemap = GetComponent<Tilemap>();
+            print(currentTilemap);
 
             UpdateTileProperties();
 
@@ -41,6 +42,8 @@ public class GridMap : MonoBehaviour
 
     private void UpdateTileProperties()
     {
+        int tileCount = 0;
+
         currentTilemap.CompressBounds();
 
         if (!Application.IsPlaying(this))
@@ -57,16 +60,19 @@ public class GridMap : MonoBehaviour
                     for (int y = startPos.y; y < endPos.y; y++)
                     {
                         TileBase tile = currentTilemap.GetTile(new Vector3Int(x, y, 0));
-                        print(tile);
                         if (tile != null)
                         {
+                            
                             TileProperty newTile = new TileProperty
                             {
                                 tileCoordinate = new Vector2Int(x, y),
                                 gridType = this.gridType,
-                                boolTypeValue = true
+                                boolTypeValue = true, 
                             };
-
+                            tileCount++;
+                            print(tileCount); 
+                            print(tile);  
+                            print(newTile.tileCoordinate);
                             mapData.tileProperties.Add(newTile);
                         }
                     }

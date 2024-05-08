@@ -25,7 +25,7 @@ public class Settings : MonoBehaviour
      //NPC网格移动
     public const float gridCellSize = 1;
     public const float gridCellDiagonalSize = 1.41f;
-    public const float pixelSize = 0.05f;  //像素比例20*20
+    public const float pixelSize = 0.05f;  //像素比例20*20 先前是0
     public const float animationBreakTime = 5f;//动画间隔五秒
     public const int maxGridSize = 9999;//最大网格尺寸
     
