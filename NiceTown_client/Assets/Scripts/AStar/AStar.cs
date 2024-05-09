@@ -34,7 +34,7 @@ namespace MFarm.AStar
 
             if (GenerateGridNodes(sceneName, startPos, endPos))
             {
-                print(FindShortestPath());
+                //print(FindShortestPath());
                 //查找最短路径
                 if (FindShortestPath())
                 {

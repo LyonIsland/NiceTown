@@ -94,8 +94,8 @@ public class TimeManager : Singleton<TimeManager>, ISaveable
     private void NewGameTime()
     {
         gameSecond = 0;
-        gameMinute = 0;
-        gameHour = 0;
+        gameMinute = 56;
+        gameHour = 5;
         gameDay = 1;
         gameMonth = 1;
         gameYear = 2024;

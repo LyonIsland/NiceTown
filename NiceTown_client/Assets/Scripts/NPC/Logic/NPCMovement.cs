@@ -238,7 +238,6 @@ public class NPCMovement : MonoBehaviour, ISaveable
         npcMove = true;
         nextWorldPosition = GetWorldPostion(gridPos);
         //还有时间用来移动
-        Debug.Log(stepTime+"  "+GameTime);
         if (stepTime > GameTime)
         {
             //用来移动的时间差，以秒为单位
@@ -247,19 +246,19 @@ public class NPCMovement : MonoBehaviour, ISaveable
             float distance = Vector3.Distance(transform.position, nextWorldPosition);
             //实际移动速度
             float speed = Mathf.Max(minSpeed, (distance / timeToMove / Settings.secondThreshold));
-            Debug.Log("" + speed);
+            //Debug.Log("" + speed);
 
 
             if (speed <= maxSpeed)
             {
                 while (Vector3.Distance(transform.position, nextWorldPosition) > Settings.pixelSize*2)
                 {
-                    Debug.Log(transform.position+"  "+nextWorldPosition);
+                    //Debug.Log(transform.position+"  "+nextWorldPosition);
                     dir = (nextWorldPosition - transform.position).normalized;
 
                     Vector2 posOffset = new Vector2(dir.x * speed * Time.fixedDeltaTime, dir.y * speed * Time.fixedDeltaTime);
                     rb.MovePosition(rb.position + posOffset);
-                    Debug.Log(rb.position+" "+posOffset);
+                    //Debug.Log(rb.position+" "+posOffset);
                     yield return new WaitForFixedUpdate();
                 }
             }
@@ -289,7 +288,7 @@ public class NPCMovement : MonoBehaviour, ISaveable
 
         if (schedule.targetScene == currentScene)
         {
-            Debug.Log("build");
+            //Debug.Log("build");
             AStar.Instance.BuildPath(schedule.targetScene, (Vector2Int)currentGridPosition, schedule.targetGridPosition, movementSteps);
         }
         else if (schedule.targetScene != currentScene)
