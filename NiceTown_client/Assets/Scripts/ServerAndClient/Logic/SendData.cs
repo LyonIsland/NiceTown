@@ -153,6 +153,7 @@ public class SendData : MonoBehaviour
     /// <returns></returns>
     IEnumerator ExecuteNormalDialogue()
     {
+        Debug.Log("1");
         yield return new WaitUntil(() => InitialReplyGot);
 
         string UserInput = DialogueUI.GetUserInput();

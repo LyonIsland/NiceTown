@@ -54,11 +54,11 @@ public class SetMission : MonoBehaviour
                     string minuteString = runLog[day][index].time.Substring(3, 2);
                     int minute = int.Parse(minuteString);
                     string place = runLog[day][index].place;
-                    Debug.Log(place);
+                    //Debug.Log(place);
                     int placePosX = (int)GameObject .Find(place).transform.position.x;
                     int placePosY = (int)GameObject .Find(place).transform.position.y;
                     Vector2Int placePos =  new Vector2Int(placePosX,placePosY);
-                    Debug.Log(placePos);
+                    //Debug.Log(placePos);
                     
 
                     npcMissionList.Add(new ScheduleDetails(hour, minute, day+1, 0, Season.春天, "testScene", placePos, null, false));

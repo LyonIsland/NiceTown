@@ -6,6 +6,7 @@ public class ChatUILogic : MonoBehaviour
 {
     public GameObject btn_startChat;
     public GameObject area_statChatBtnShow;
+    public GameObject chatUI;
 
     // Start is called before the first frame update
     void Start()
@@ -15,6 +16,7 @@ public class ChatUILogic : MonoBehaviour
 
     public void BtnShowChatCkick()
     {
+      Debug.Log("!!!");
        btn_startChat.SetActive(true);
     }
     public void BtnBackLayerClick()
@@ -22,9 +24,10 @@ public class ChatUILogic : MonoBehaviour
       //TODO: 查找所有NPC下的面板，并关闭 Find的过程
        btn_startChat.SetActive(false);
     }
-    public void BtnStartChat()
+    public void BtnStartChatClick()
     {
-       Debug.Log("show pannel");
+      Debug.Log("!!");
+       chatUI.SetActive(true);
     }
 
 

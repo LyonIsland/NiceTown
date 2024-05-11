@@ -40,7 +40,7 @@ public class CreateGameObjectsFromCSV : MonoBehaviour
                 // 解析 ID 和 Position
                 string id = values[0];
                 string[] position = values[1].Split('_');
-                Debug.Log("" + id + "" + position[0]);
+                //Debug.Log("" + id + "" + position[0]);
                 if (position.Length >= 2)
                 {
                     float xOriginal = float.Parse(position[0]);
