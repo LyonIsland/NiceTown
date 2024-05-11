@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using OpenAI;
 using UnityEngine;
 
 public class ChatUILogic : MonoBehaviour
@@ -7,6 +8,8 @@ public class ChatUILogic : MonoBehaviour
     public GameObject btn_startChat;
     public GameObject area_statChatBtnShow;
     public GameObject chatUI;
+    public ChatManager chatManager;
+    public string agent_name;
 
     // Start is called before the first frame update
     void Start()
@@ -26,8 +29,10 @@ public class ChatUILogic : MonoBehaviour
     }
     public void BtnStartChatClick()
     {
-      Debug.Log("!!");
+       ChatManager.agentName = agent_name;
+       chatManager.CreateSession();
        chatUI.SetActive(true);
+
     }
 
 

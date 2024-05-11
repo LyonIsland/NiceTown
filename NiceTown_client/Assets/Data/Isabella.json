@@ -1,0 +1,304 @@
+[
+  [
+    {
+      "place": "Bed2",
+      "time": "06:00"
+    },
+    {
+      "place": "CafeTable46",
+      "time": "08:00"
+    },
+    {
+      "place": "CafeTable45",
+      "time": "09:00"
+    },
+    {
+      "place": "BookTable8",
+      "time": "11:00"
+    },
+    {
+      "place": "BookTable1",
+      "time": "13:00"
+    },
+    {
+      "place": "BookTable4",
+      "time": "14:00"
+    },
+    {
+      "place": "BookTable11",
+      "time": "16:00"
+    },
+    {
+      "place": "CafeTable10",
+      "time": "18:00"
+    },
+    {
+      "place": "Fit13",
+      "time": "19:00"
+    },
+    {
+      "place": "Bed4",
+      "time": "21:00"
+    }
+  ],
+  [
+    {
+      "place": "Bed6",
+      "time": "06:00"
+    },
+    {
+      "place": "BookTable19",
+      "time": "07:00"
+    },
+    {
+      "place": "CafeTable11",
+      "time": "08:00"
+    },
+    {
+      "place": "BookTable13",
+      "time": "09:00"
+    },
+    {
+      "place": "BookTable1",
+      "time": "10:00"
+    },
+    {
+      "place": "FoodTable20",
+      "time": "12:00"
+    },
+    {
+      "place": "Fit13",
+      "time": "13:00"
+    },
+    {
+      "place": "Fit1",
+      "time": "15:00"
+    },
+    {
+      "place": "BookTable4",
+      "time": "16:00"
+    },
+    {
+      "place": "CafeTable45",
+      "time": "18:00"
+    },
+    {
+      "place": "Chair5",
+      "time": "19:00"
+    },
+    {
+      "place": "BookTable1",
+      "time": "20:00"
+    },
+    {
+      "place": "Bed1",
+      "time": "22:00"
+    }
+  ],
+  [
+    {
+      "place": "Bed3",
+      "time": "06:00"
+    },
+    {
+      "place": "BookTable19",
+      "time": "07:00"
+    },
+    {
+      "place": "CafeTable11",
+      "time": "08:00"
+    },
+    {
+      "place": "BookTable8",
+      "time": "10:00"
+    },
+    {
+      "place": "CafeTable46",
+      "time": "12:00"
+    },
+    {
+      "place": "Fit13",
+      "time": "14:00"
+    },
+    {
+      "place": "CafeTable44",
+      "time": "16:00"
+    },
+    {
+      "place": "FoodTable24",
+      "time": "18:00"
+    },
+    {
+      "place": "Chair3",
+      "time": "20:00"
+    },
+    {
+      "place": "Bed2",
+      "time": "22:00"
+    }
+  ],
+  [
+    {
+      "place": "Bed3",
+      "time": "06:00"
+    },
+    {
+      "place": "BookTable17",
+      "time": "08:00"
+    },
+    {
+      "place": "Fit13",
+      "time": "10:00"
+    },
+    {
+      "place": "FoodTable20",
+      "time": "12:00"
+    },
+    {
+      "place": "BookTable1",
+      "time": "13:00"
+    },
+    {
+      "place": "BookTable19",
+      "time": "15:00"
+    },
+    {
+      "place": "FoodTable24",
+      "time": "18:00"
+    },
+    {
+      "place": "BookTable1",
+      "time": "19:00"
+    },
+    {
+      "place": "BookTable4",
+      "time": "21:00"
+    },
+    {
+      "place": "Bed1",
+      "time": "22:00"
+    }
+  ],
+  [
+    {
+      "place": "Bed6",
+      "time": "06:00"
+    },
+    {
+      "place": "BookTable19",
+      "time": "07:00"
+    },
+    {
+      "place": "CafeTable10",
+      "time": "08:00"
+    },
+    {
+      "place": "BookTable10",
+      "time": "10:00"
+    },
+    {
+      "place": "FoodTable22",
+      "time": "12:00"
+    },
+    {
+      "place": "CafeTable46",
+      "time": "14:00"
+    },
+    {
+      "place": "Fit13",
+      "time": "16:00"
+    },
+    {
+      "place": "BookTable3",
+      "time": "17:00"
+    },
+    {
+      "place": "BookTable5",
+      "time": "18:00"
+    },
+    {
+      "place": "CafeTable45",
+      "time": "19:00"
+    },
+    {
+      "place": "Bed4",
+      "time": "21:00"
+    }
+  ],
+  [
+    {
+      "place": "Bed7",
+      "time": "06:00"
+    },
+    {
+      "place": "BookTable17",
+      "time": "08:00"
+    },
+    {
+      "place": "BookTable10",
+      "time": "10:00"
+    },
+    {
+      "place": "FoodTable21",
+      "time": "12:00"
+    },
+    {
+      "place": "Fit13",
+      "time": "14:00"
+    },
+    {
+      "place": "CafeTable45",
+      "time": "16:00"
+    },
+    {
+      "place": "CafeTable42",
+      "time": "18:00"
+    },
+    {
+      "place": "Chair3",
+      "time": "20:00"
+    },
+    {
+      "place": "Bed2",
+      "time": "22:00"
+    }
+  ],
+  [
+    {
+      "place": "Bed7",
+      "time": "06:00"
+    },
+    {
+      "place": "BookTable18",
+      "time": "09:00"
+    },
+    {
+      "place": "FoodTable20",
+      "time": "12:00"
+    },
+    {
+      "place": "Fit13",
+      "time": "14:00"
+    },
+    {
+      "place": "BookTable4",
+      "time": "16:00"
+    },
+    {
+      "place": "BookTable1",
+      "time": "18:00"
+    },
+    {
+      "place": "CafeTable46",
+      "time": "19:00"
+    },
+    {
+      "place": "Chair3",
+      "time": "20:00"
+    },
+    {
+      "place": "Bed2",
+      "time": "22:00"
+    }
+  ]
+]

@@ -9,8 +9,9 @@ using Unity.Burst.Intrinsics;
 [ExecuteInEditMode]
 public class GetRunLog : MonoBehaviour
 {
+    public string agent_name = "empty";
     private const string SERVER_URL = "http://127.0.0.1:5000";
-    private const string fileName = "Data/runlog.json"; // 文件名
+    private string fileName = "Data/"; // 文件名
 
     #if UNITY_EDITOR
         private void OnDisable(){
@@ -27,7 +28,7 @@ public class GetRunLog : MonoBehaviour
             string Url = "http://localhost:5000/runlog";
             string taskId = System.Guid.NewGuid().ToString();
             // 创建JSON数据
-            string jsonData = "{\"id\": \"" + taskId + "\"}";
+            string jsonData = "{\"agent_name\": \"" + agent_name + "\"}";
             byte[] jsonToSend = new UTF8Encoding().GetBytes(jsonData);
 
             UnityWebRequest request = UnityWebRequest.Put(Url, jsonToSend);
@@ -44,8 +45,9 @@ public class GetRunLog : MonoBehaviour
             else
             {
                 string logString = request.downloadHandler.text;
-
+                fileName = fileName+agent_name+".json";
                 string filePath = Path.Combine(Application.dataPath, fileName);
+                
                 File.WriteAllText(filePath, logString);
                 Debug.Log("JSON data saved to: " + filePath);
             }

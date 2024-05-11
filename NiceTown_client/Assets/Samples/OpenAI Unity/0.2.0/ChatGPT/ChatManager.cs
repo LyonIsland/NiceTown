@@ -16,6 +16,7 @@ namespace OpenAI
     {
         [SerializeField] private InputField inputField;
         [SerializeField] private Button button;
+        [SerializeField] private Button close_button;
         [SerializeField] private ScrollRect scroll;
         
         [SerializeField] private RectTransform sent;
@@ -30,7 +31,7 @@ namespace OpenAI
         private const string SERVER_URL = "http://127.0.0.1:5000";
         string userId = "testUesrId";
         public string userName = "佳乐";
-        string agentName = "Benjamin";
+        public static string agentName = "Benjamin";
         string day = "1";
         string time = "14:00";
 
@@ -40,12 +41,12 @@ namespace OpenAI
             button.onClick.AddListener(Chat);
             
         }
-
-        private void OnEnable(){
+        public void CreateSession(){
             StartCoroutine(Create());
         }
-        private void OnDisable(){
-            StartCoroutine(Create());
+
+        public void EndSession(){
+            StartCoroutine(End());
         }
 
         private void AppendMessage(ChatMessage message)
@@ -64,8 +65,7 @@ namespace OpenAI
         void Chat(){
             StartCoroutine(Utterance());
         }
-        private IEnumerator Create(){
-            Debug.Log("!!!");
+        public IEnumerator  Create(){
             button.enabled = false;
             inputField.text = "";
             inputField.enabled = false;
@@ -157,39 +157,22 @@ namespace OpenAI
             }
         }
 
-        private IEnumerator End(string taskID)
+        public IEnumerator End()
         {
-            // 构建带参数的GET请求
-            string Url = SERVER_URL+"/chat/query";   
-            string jsonData = "{\"id\": \"" + task_id + "\"}";
+            Debug.Log("!!!");
+            button.enabled = false;
+            inputField.text = "";
+            inputField.enabled = false;
+            string Url = SERVER_URL+"/chat/end";  
+            string jsonData = "{\"agent_name\": \"" + agentName + "\", \"session_id\": \"" + session_id + "\"}";
             byte[] jsonToSend = new UTF8Encoding().GetBytes(jsonData);
+
             UnityWebRequest request = UnityWebRequest.Put(Url, jsonToSend);
             request.method = "POST";
             request.SetRequestHeader("Content-Type", "application/json");
-            
-            Debug.Log("send check");
             yield return request.SendWebRequest();
-            Debug.Log("get check");
-            if (request.result != UnityWebRequest.Result.Success)
-            {
-                Debug.LogError("Error checking result: " + request.error);
-            }
-            else
-            {
-                // 解析并处理结果
-                string result = request.downloadHandler.text;
-                JObject jsonObject = JObject.Parse(result);
-                string queryContent = (string)jsonObject["query"];
-                Debug.Log("Result: " + result);
-                Debug.Log("content"+ queryContent);
-                var query = new ChatMessage()
-                {
-                    Content = queryContent
-                };
-                AppendMessage(query);
-                button.enabled = true;
-                inputField.enabled = true;
-            }
+            string result = request.downloadHandler.text;
+            Debug.Log("" + result);
         }
     } 
 }

@@ -9,28 +9,23 @@ using Unity.Burst.Intrinsics;
 using Newtonsoft.Json;
 using UnityEngine.UIElements;
 
+[ExecuteInEditMode]
 public class SetMission : MonoBehaviour
 {
-    private const string fileName = "Data/runlog.json"; // 文件名
-    private MyDataObject[][] runLog = new MyDataObject[1][];
 
-    private void Start()
+    #if UNITY_EDITOR
+    private void OnEnable()
     {
-        //执行从本地文件loadmission的工作
-        readLog();
         SetMissionSO();
     }
 
-    private void readLog(){
+    private MyDataObject[][] readLog(string fileName){
         // 设置JSON文件的路径，这里假设JSON文件在Assets文件夹下
         string filePath = Path.Combine(Application.dataPath, fileName);
         string jsonContent = File.ReadAllText(filePath);
-
         // 使用Json.NET解析JSON字符串
-        runLog = JsonConvert.DeserializeObject<MyDataObject[][]>(jsonContent);
-
-        // 输出解析后的数据
-        
+        MyDataObject[][] runLog = JsonConvert.DeserializeObject<MyDataObject[][]>(jsonContent);
+        return runLog;       
     }
 
     private void SetMissionSO(){
@@ -39,6 +34,7 @@ public class SetMission : MonoBehaviour
             Transform npc = NPCPosition.npc;
             List<ScheduleDetails> npcMissionList = npc.GetComponent<NPCMovement>().scheduleData.scheduleList; 
             npcMissionList.Clear();
+            MyDataObject[][] runLog = readLog("Data/"+npc.name+".json");
             for (int day = 0; day < runLog.Length; day++)
             {
                 for (int index = 0; index < runLog[day].Length; index++)
@@ -53,10 +49,14 @@ public class SetMission : MonoBehaviour
                     }
                     string minuteString = runLog[day][index].time.Substring(3, 2);
                     int minute = int.Parse(minuteString);
-                    string place = runLog[day][index].place;
+
+                    string placeName = runLog[day][index].place;
+
+                    GameObject place = GameObject.Find(placeName);
+                    
                     //Debug.Log(place);
-                    int placePosX = (int)GameObject .Find(place).transform.position.x;
-                    int placePosY = (int)GameObject .Find(place).transform.position.y;
+                    int placePosX = (int)place.transform.position.x;
+                    int placePosY = (int)place.transform.position.y;
                     Vector2Int placePos =  new Vector2Int(placePosX,placePosY);
                     //Debug.Log(placePos);
                     
@@ -68,6 +68,7 @@ public class SetMission : MonoBehaviour
         }
         
     }
+    #endif
 }
 
 [System.Serializable]
