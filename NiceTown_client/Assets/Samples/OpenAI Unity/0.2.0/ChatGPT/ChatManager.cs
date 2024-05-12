@@ -9,6 +9,8 @@ using UnityEngine.Networking;
 using System.Collections;
 using System.Text;
 using Newtonsoft.Json.Linq;
+using System.IO;
+using Newtonsoft.Json;
 
 namespace OpenAI
 {
@@ -18,6 +20,7 @@ namespace OpenAI
         [SerializeField] private Button button;
         [SerializeField] private Button close_button;
         [SerializeField] private ScrollRect scroll;
+        [SerializeField] private ScrollRect actionScroll;
         
         [SerializeField] private RectTransform sent;
         [SerializeField] private RectTransform received;
@@ -36,13 +39,17 @@ namespace OpenAI
         string time = "14:00";
 
 
+
+
         private void Start()
         {
             button.onClick.AddListener(Chat);
-            
+
+             getCurrentAction();
         }
         public void CreateSession(){
             StartCoroutine(Create());
+            getCurrentAction();
         }
 
         public void EndSession(){
@@ -61,6 +68,61 @@ namespace OpenAI
             scroll.content.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, height);
             scroll.verticalNormalizedPosition = 0;
         }
+
+        private void AppendAction(ChatMessage message)
+        {
+            actionScroll.content.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, 0);
+
+            var item = Instantiate(message.Role == "user" ? sent : received, actionScroll.content);
+            item.GetChild(0).GetChild(0).GetComponent<Text>().text = message.Content;
+            item.anchoredPosition = new Vector2(0, -height);
+            LayoutRebuilder.ForceRebuildLayoutImmediate(item);
+            height += item.sizeDelta.y;
+            actionScroll.content.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, height);
+            actionScroll.verticalNormalizedPosition = 0;
+        }
+
+        public MyDataObject[][] readLog(string fileName){
+        // 设置JSON文件的路径，这里假设JSON文件在Assets文件夹下
+        string filePath = Path.Combine(Application.dataPath, fileName);
+        string jsonContent = File.ReadAllText(filePath);
+        // 使用Json.NET解析JSON字符串
+        MyDataObject[][] runLog = JsonConvert.DeserializeObject<MyDataObject[][]>(jsonContent);
+        return runLog;       
+    }
+
+        private void getCurrentAction(){
+            MyDataObject[][] runLog = readLog("Data/"+agentName+".json");
+            Debug.Log(runLog);
+            for (int day = 0; day < runLog.Length; day++)
+            {
+                for (int index = 0; index < runLog[day].Length; index++)
+                {
+                    int hour;
+                    string hourString = runLog[day][index].time.Substring(0, 2);
+                    if (hourString.StartsWith("0")){
+                        hour = int.Parse(hourString.Substring(1, 1));
+                    }
+                    else{
+                        hour = int.Parse(hourString.Substring(0, 2));
+                    }
+                    string minuteString = runLog[day][index].time.Substring(3, 2);
+                    int minute = int.Parse(minuteString);
+                    string action = "Agent行为:   "+runLog[day][index].action;
+                    if (day<=TimeManager.Instance.gameDay&&hour<=TimeManager.Instance.gameHour){
+                        var actionPob = new ChatMessage()
+                        {
+                            Content = action
+                        };
+                        AppendAction(actionPob);
+                    }
+                    
+                    Debug.Log(action);
+                }
+            }
+            
+        }
+        
 
         void Chat(){
             StartCoroutine(Utterance());

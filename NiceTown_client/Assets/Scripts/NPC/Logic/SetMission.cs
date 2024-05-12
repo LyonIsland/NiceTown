@@ -19,7 +19,7 @@ public class SetMission : MonoBehaviour
         SetMissionSO();
     }
 
-    private MyDataObject[][] readLog(string fileName){
+    public MyDataObject[][] readLog(string fileName){
         // 设置JSON文件的路径，这里假设JSON文件在Assets文件夹下
         string filePath = Path.Combine(Application.dataPath, fileName);
         string jsonContent = File.ReadAllText(filePath);
@@ -76,6 +76,8 @@ public class MyDataObject
 {
     public string place;
     public string time;
+    public string action;
+    public string feeling;
 }
 
 

@@ -6,7 +6,7 @@ using MFarm.Save;
 using UnityEngine;
 public class TimeManager : Singleton<TimeManager>, ISaveable
 {
-    private int gameSecond, gameMinute, gameHour, gameDay, gameMonth, gameYear;
+    public int gameSecond, gameMinute, gameHour, gameDay, gameMonth, gameYear;
     private Season gameSeason = Season.春天;
     private int monthInSeason = 3;
 
