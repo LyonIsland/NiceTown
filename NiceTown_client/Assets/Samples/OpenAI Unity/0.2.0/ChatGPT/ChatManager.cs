@@ -27,7 +27,7 @@ namespace OpenAI
 
         private float height;
         private List<ChatMessage> messages = new List<ChatMessage>();
-
+        public GameObject content;
         public int session_id = 0;
         public string task_id = "";
         public string latest_query = "";
@@ -54,6 +54,7 @@ namespace OpenAI
 
         public void EndSession(){
             StartCoroutine(End());
+            height = 0;
         }
 
         private void AppendMessage(ChatMessage message)
@@ -109,7 +110,7 @@ namespace OpenAI
                     string minuteString = runLog[day][index].time.Substring(3, 2);
                     int minute = int.Parse(minuteString);
                     string action = "Agent行为:   "+runLog[day][index].action;
-                    if (day<=TimeManager.Instance.gameDay&&hour<=TimeManager.Instance.gameHour){
+                    if (day+1<=TimeManager.Instance.gameDay&&hour<=TimeManager.Instance.gameHour){
                         var actionPob = new ChatMessage()
                         {
                             Content = action
