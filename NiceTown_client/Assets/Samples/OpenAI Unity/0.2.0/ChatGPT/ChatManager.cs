@@ -26,6 +26,7 @@ namespace OpenAI
         [SerializeField] private RectTransform received;
 
         private float height;
+        private float actionHeight;
         private List<ChatMessage> messages = new List<ChatMessage>();
         public GameObject content;
         public int session_id = 0;
@@ -44,8 +45,7 @@ namespace OpenAI
         private void Start()
         {
             button.onClick.AddListener(Chat);
-
-             getCurrentAction();
+            getCurrentAction();
         }
         public void CreateSession(){
             StartCoroutine(Create());
@@ -55,6 +55,7 @@ namespace OpenAI
         public void EndSession(){
             StartCoroutine(End());
             height = 0;
+            actionHeight = 0;
         }
 
         private void AppendMessage(ChatMessage message)
@@ -66,6 +67,7 @@ namespace OpenAI
             item.anchoredPosition = new Vector2(0, -height);
             LayoutRebuilder.ForceRebuildLayoutImmediate(item);
             height += item.sizeDelta.y;
+            Debug.Log("___" + item.sizeDelta + "___");
             scroll.content.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, height);
             scroll.verticalNormalizedPosition = 0;
         }
@@ -76,11 +78,15 @@ namespace OpenAI
 
             var item = Instantiate(message.Role == "user" ? sent : received, actionScroll.content);
             item.GetChild(0).GetChild(0).GetComponent<Text>().text = message.Content;
-            item.anchoredPosition = new Vector2(0, -height);
+            item.anchoredPosition = new Vector2(0, -actionHeight);
             LayoutRebuilder.ForceRebuildLayoutImmediate(item);
-            height += item.sizeDelta.y;
-            actionScroll.content.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, height);
+            
+            actionHeight += item.sizeDelta.y;
+            actionHeight += 140;
+            Debug.Log("___" + item.sizeDelta + "___");
+            actionScroll.content.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, actionHeight);
             actionScroll.verticalNormalizedPosition = 0;
+            Debug.Log("!!!" + actionHeight + "!!!");
         }
 
         public MyDataObject[][] readLog(string fileName){
@@ -94,7 +100,6 @@ namespace OpenAI
 
         private void getCurrentAction(){
             MyDataObject[][] runLog = readLog("Data/"+agentName+".json");
-            Debug.Log(runLog);
             for (int day = 0; day < runLog.Length; day++)
             {
                 for (int index = 0; index < runLog[day].Length; index++)
@@ -113,12 +118,11 @@ namespace OpenAI
                     if (day+1<=TimeManager.Instance.gameDay&&hour<=TimeManager.Instance.gameHour){
                         var actionPob = new ChatMessage()
                         {
+                            Role = "user",
                             Content = action
                         };
                         AppendAction(actionPob);
                     }
-                    
-                    Debug.Log(action);
                 }
             }
             
