@@ -34,7 +34,7 @@ public class SetMission : MonoBehaviour
             Transform npc = NPCPosition.npc;
             List<ScheduleDetails> npcMissionList = npc.GetComponent<NPCMovement>().scheduleData.scheduleList; 
             npcMissionList.Clear();
-            MyDataObject[][] runLog = readLog("Data/"+npc.name+".json");
+            MyDataObject[][] runLog = readLog("Data/RunLog/"+npc.name+".json");
             for (int day = 0; day < runLog.Length; day++)
             {
                 for (int index = 0; index < runLog[day].Length; index++)
