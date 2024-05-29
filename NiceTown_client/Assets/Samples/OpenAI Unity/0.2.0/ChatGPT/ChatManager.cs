@@ -99,7 +99,7 @@ namespace OpenAI
     }
 
         private void getCurrentAction(){
-            MyDataObject[][] runLog = readLog("Data/"+agentName+".json");
+            MyDataObject[][] runLog = readLog("Data/RunLog/"+agentName+".json");
             for (int day = 0; day < runLog.Length; day++)
             {
                 for (int index = 0; index < runLog[day].Length; index++)

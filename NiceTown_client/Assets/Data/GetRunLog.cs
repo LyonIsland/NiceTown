@@ -9,21 +9,25 @@ using Unity.Burst.Intrinsics;
 [ExecuteInEditMode]
 public class GetRunLog : MonoBehaviour
 {
-    public string agent_name = "empty";
     private const string SERVER_URL = "http://127.0.0.1:5000";
-    private string fileName = "Data/"; // 文件名
+    private string fileName = "Data/Runlog/"; // 文件名
 
     #if UNITY_EDITOR
         private void OnDisable(){
-            SendRequest();
+            GetAllAgentRunlog();
         }
         
-        public void SendRequest()
-        {    
-            StartCoroutine(GetRunLogRequest());
+        public void GetAllAgentRunlog()
+        {   
+            List<NPCPosition> NPCPositionList = transform.GetComponent<NPCManager>().npcPositionList;
+            foreach (NPCPosition NPCPosition in NPCPositionList){
+                Transform npc = NPCPosition.npc;
+                StartCoroutine(GetRunLogRequest(npc.name));
+            }  
+            
         }
         
-        private IEnumerator GetRunLogRequest()
+        private IEnumerator GetRunLogRequest(string agent_name)
         {
             string Url = "http://localhost:5000/runlog";
             string taskId = System.Guid.NewGuid().ToString();
@@ -45,6 +49,7 @@ public class GetRunLog : MonoBehaviour
             else
             {
                 string logString = request.downloadHandler.text;
+                fileName = "Data/Runlog/";
                 fileName = fileName+agent_name+".json";
                 string filePath = Path.Combine(Application.dataPath, fileName);
                 

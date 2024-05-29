@@ -1,0 +1,40 @@
+[
+  [
+    {
+      "place": "Bed22",
+      "time": "06:00"
+    },
+    {
+      "place": "CafeTable61",
+      "time": "08:00"
+    },
+    {
+      "place": "BookTable39",
+      "time": "09:00"
+    },
+    {
+      "place": "CafeTable60",
+      "time": "12:00"
+    },
+    {
+      "place": "BookTable39",
+      "time": "14:00"
+    },
+    {
+      "place": "FoodTable19",
+      "time": "16:00"
+    },
+    {
+      "place": "CafeTable62",
+      "time": "18:00"
+    },
+    {
+      "place": "BookTable37",
+      "time": "20:00"
+    },
+    {
+      "place": "Bed23",
+      "time": "22:00"
+    }
+  ]
+]

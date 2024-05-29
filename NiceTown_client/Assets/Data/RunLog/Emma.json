@@ -1,0 +1,76 @@
+[
+  [
+    {
+      "place": "Bed21",
+      "time": "06:00"
+    },
+    {
+      "place": "Bed23",
+      "time": "07:00"
+    },
+    {
+      "place": "Bed22",
+      "time": "08:00"
+    },
+    {
+      "place": "BookTable38",
+      "time": "09:00"
+    },
+    {
+      "place": "BookTable35",
+      "time": "10:00"
+    },
+    {
+      "place": "CafeTable61",
+      "time": "11:00"
+    },
+    {
+      "place": "CafeTable4",
+      "time": "12:00"
+    },
+    {
+      "place": "CafeTable5",
+      "time": "13:00"
+    },
+    {
+      "place": "BookTable14",
+      "time": "14:00"
+    },
+    {
+      "place": "CafeTable4",
+      "time": "15:00"
+    },
+    {
+      "place": "CafeTable1",
+      "time": "16:00"
+    },
+    {
+      "place": "CafeTable5",
+      "time": "17:00"
+    },
+    {
+      "place": "CafeTable2",
+      "time": "18:00"
+    },
+    {
+      "place": "BookTable39",
+      "time": "19:00"
+    },
+    {
+      "place": "CafeTable62",
+      "time": "20:00"
+    },
+    {
+      "place": "CafeTable60",
+      "time": "21:00"
+    },
+    {
+      "place": "Bed22",
+      "time": "22:00"
+    },
+    {
+      "place": "Bed19",
+      "time": "23:00"
+    }
+  ]
+]

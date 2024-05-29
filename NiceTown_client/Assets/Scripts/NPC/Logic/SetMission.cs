@@ -32,9 +32,11 @@ public class SetMission : MonoBehaviour
         List<NPCPosition> NPCPositionList = transform.GetComponent<NPCManager>().npcPositionList;
         foreach (NPCPosition NPCPosition in NPCPositionList){
             Transform npc = NPCPosition.npc;
+            Debug.Log(npc.name);
             List<ScheduleDetails> npcMissionList = npc.GetComponent<NPCMovement>().scheduleData.scheduleList; 
             npcMissionList.Clear();
             MyDataObject[][] runLog = readLog("Data/RunLog/"+npc.name+".json");
+            
             for (int day = 0; day < runLog.Length; day++)
             {
                 for (int index = 0; index < runLog[day].Length; index++)
@@ -49,7 +51,8 @@ public class SetMission : MonoBehaviour
                     }
                     string minuteString = runLog[day][index].time.Substring(3, 2);
                     int minute = int.Parse(minuteString);
-
+                    int randomMinutesToAdd = UnityEngine.Random.Range(0, 21);
+                    int justifyminute = minute+randomMinutesToAdd;
                     string placeName = runLog[day][index].place;
 
                     GameObject place = GameObject.Find(placeName);
@@ -61,7 +64,7 @@ public class SetMission : MonoBehaviour
                     //Debug.Log(placePos);
                     
 
-                    npcMissionList.Add(new ScheduleDetails(hour, minute, day+1, 0, Season.春天, "testScene", placePos, null, false));
+                    npcMissionList.Add(new ScheduleDetails(hour, justifyminute, day+1, 0, Season.春天, "testScene", placePos, null, false));
                 }
             }
             
