@@ -29,8 +29,7 @@ public class ChatUILogic : MonoBehaviour
     }
     public void BtnStartChatClick()
     {
-       ChatManager.agentName = agent_name;
-       chatManager.CreateSession();
+       chatManager.CreateSession(agent_name);
        chatUI.SetActive(true);
 
     }

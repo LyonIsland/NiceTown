@@ -1,56 +1,138 @@
 [
   [
     {
-      "place": "BookTable14",
-      "time": "08:00"
+      "action": "wake",
+      "moveMin": 39.27798365496885,
+      "place": "Bed22",
+      "time": "07:00"
     },
     {
-      "place": "BookTable12",
-      "time": "09:00"
+      "action": "study",
+      "moveMin": 3.9,
+      "place": "BookTable36",
+      "time": "07:30"
     },
     {
+      "action": "eat",
+      "moveMin": 44.62356440267855,
+      "place": "CafeTable61",
+      "time": "08:30"
+    },
+    {
+      "action": "study",
+      "moveMin": 18.50304029071979,
       "place": "BookTable14",
       "time": "10:00"
     },
     {
+      "action": "relax",
+      "moveMin": 5.0022494939776845,
       "place": "CafeTable3",
       "time": "12:00"
     },
     {
-      "place": "CafeTable7",
-      "time": "13:00"
+      "action": "study",
+      "moveMin": 8.201371836467361,
+      "place": "BookTable12",
+      "time": "13:30"
     },
     {
+      "action": "relax",
+      "moveMin": 68.29760244693806,
+      "place": "Chair5",
+      "time": "15:30"
+    },
+    {
+      "action": "eat",
+      "moveMin": 65.89271583414968,
       "place": "CafeTable3",
-      "time": "15:00"
+      "time": "16:30"
     },
     {
-      "place": "CafeTable4",
-      "time": "17:00"
-    },
-    {
-      "place": "BookTable14",
+      "action": "research",
+      "moveMin": 7.051595564125895,
+      "place": "BookTable13",
       "time": "18:00"
     },
     {
-      "place": "BookTable12",
-      "time": "19:00"
-    },
-    {
-      "place": "BookTable14",
+      "action": "eat",
+      "moveMin": 16.627161513619818,
+      "place": "CafeTable62",
       "time": "20:00"
     },
     {
-      "place": "BookTable13",
-      "time": "21:00"
-    },
-    {
-      "place": "BookTable14",
+      "action": "sleep",
+      "moveMin": 43.80182644593716,
+      "place": "Bed21",
       "time": "22:00"
+    }
+  ],
+  [
+    {
+      "action": "wake",
+      "moveMin": 35.315187950795334,
+      "place": "Bed23",
+      "time": "07:00"
     },
     {
+      "action": "study",
+      "moveMin": 37.90728821743913,
+      "place": "BookTable36",
+      "time": "07:30"
+    },
+    {
+      "action": "eat",
+      "moveMin": 44.62356440267855,
+      "place": "CafeTable61",
+      "time": "08:30"
+    },
+    {
+      "action": "study",
+      "moveMin": 18.50304029071979,
+      "place": "BookTable14",
+      "time": "10:00"
+    },
+    {
+      "action": "relax",
+      "moveMin": 5.462600113499065,
+      "place": "CafeTable1",
+      "time": "12:00"
+    },
+    {
+      "action": "study",
+      "moveMin": 7.3852894323783955,
+      "place": "BookTable13",
+      "time": "13:30"
+    },
+    {
+      "action": "relax",
+      "moveMin": 67.9257315013979,
+      "place": "Chair5",
+      "time": "15:30"
+    },
+    {
+      "action": "eat",
+      "moveMin": 63.51238068282436,
+      "place": "CafeTable4",
+      "time": "16:30"
+    },
+    {
+      "action": "research",
+      "moveMin": 10.239140588936163,
       "place": "BookTable12",
-      "time": "23:00"
+      "time": "18:00"
+    },
+    {
+      "action": "eat",
+      "moveMin": 16.601204775557708,
+      "place": "CafeTable62",
+      "time": "20:00"
+    },
+    {
+      "action": "sleep",
+      "moveMin": 43.80182644593716,
+      "place": "Bed21",
+      "time": "22:00"
     }
   ]
 ]

@@ -1,76 +1,168 @@
 [
   [
     {
-      "place": "Bed23",
+      "action": "sleep",
+      "moveMin": 70.10237157186624,
+      "place": "Bed21",
       "time": "06:00"
     },
     {
-      "place": "Bed17",
+      "action": "wake",
+      "moveMin": 26.694990166696073,
+      "place": "Bed19",
       "time": "07:00"
     },
     {
-      "place": "Bed19",
-      "time": "08:00"
+      "action": "study",
+      "moveMin": 3.7074249823833254,
+      "place": "BookTable34",
+      "time": "07:30"
     },
     {
+      "action": "eat",
+      "moveMin": 67.29570937288648,
       "place": "CafeTable5",
       "time": "09:00"
     },
     {
-      "place": "BookTable12",
-      "time": "10:00"
+      "action": "study",
+      "moveMin": 8.870315665183512,
+      "place": "BookTable9",
+      "time": "10:30"
     },
     {
-      "place": "BookTable11",
-      "time": "11:00"
-    },
-    {
+      "action": "relax",
+      "moveMin": 7.061338400048536,
       "place": "CafeTable1",
       "time": "12:00"
     },
     {
-      "place": "CafeTable8",
-      "time": "13:00"
+      "action": "study",
+      "moveMin": 3.870723446592381,
+      "place": "BookTable11",
+      "time": "13:30"
     },
     {
-      "place": "BookTable10",
-      "time": "14:00"
-    },
-    {
-      "place": "CafeTable2",
+      "action": "eat",
+      "moveMin": 5.681769090697016,
+      "place": "CafeTable5",
       "time": "15:00"
     },
     {
+      "action": "study",
+      "moveMin": 6.905070600652827,
       "place": "BookTable14",
-      "time": "16:00"
+      "time": "16:30"
     },
     {
-      "place": "CafeTable3",
-      "time": "17:00"
-    },
-    {
-      "place": "CafeTable61",
+      "action": "eat",
+      "moveMin": 6.905070600652827,
+      "place": "CafeTable5",
       "time": "18:00"
     },
     {
-      "place": "BookTable38",
-      "time": "19:00"
+      "action": "study",
+      "moveMin": 6.905070600652827,
+      "place": "BookTable14",
+      "time": "19:30"
     },
     {
-      "place": "BookTable36",
-      "time": "20:00"
-    },
-    {
-      "place": "CafeTable62",
+      "action": "read",
+      "moveMin": 56.6022084374806,
+      "place": "BookTable37",
       "time": "21:00"
     },
     {
-      "place": "CafeTable61",
-      "time": "22:00"
+      "action": "sleep",
+      "moveMin": 28.86923102543606,
+      "place": "Bed18",
+      "time": "22:30"
+    }
+  ],
+  [
+    {
+      "action": "sleep",
+      "moveMin": 27.97270991520128,
+      "place": "Bed22",
+      "time": "06:00"
     },
     {
+      "action": "wake",
+      "moveMin": 6.05,
+      "place": "Bed20",
+      "time": "07:00"
+    },
+    {
+      "action": "study",
+      "moveMin": 27.27425526022663,
+      "place": "BookTable34",
+      "time": "07:30"
+    },
+    {
+      "action": "eat",
+      "moveMin": 67.29570937288648,
+      "place": "CafeTable5",
+      "time": "09:00"
+    },
+    {
+      "action": "study",
+      "moveMin": 6.826419266350404,
+      "place": "BookTable10",
+      "time": "10:30"
+    },
+    {
+      "action": "social",
+      "moveMin": 5.889185003037348,
+      "place": "BookTable2",
+      "time": "12:00"
+    },
+    {
+      "action": "study",
+      "moveMin": 7.25,
+      "place": "BookTable12",
+      "time": "13:30"
+    },
+    {
+      "action": "eat",
+      "moveMin": 10.239140588936163,
+      "place": "CafeTable4",
+      "time": "15:00"
+    },
+    {
+      "action": "social",
+      "moveMin": 10.42700819986251,
+      "place": "BookTable2",
+      "time": "16:00"
+    },
+    {
+      "action": "study",
+      "moveMin": 7.573803535872844,
+      "place": "BookTable14",
+      "time": "16:30"
+    },
+    {
+      "action": "eat",
+      "moveMin": 6.905070600652827,
+      "place": "CafeTable5",
+      "time": "18:00"
+    },
+    {
+      "action": "study",
+      "moveMin": 6.905070600652827,
+      "place": "BookTable14",
+      "time": "19:30"
+    },
+    {
+      "action": "read",
+      "moveMin": 56.6022084374806,
+      "place": "BookTable37",
+      "time": "21:00"
+    },
+    {
+      "action": "sleep",
+      "moveMin": 28.86923102543606,
       "place": "Bed18",
-      "time": "23:00"
+      "time": "22:30"
     }
   ]
 ]

@@ -32,7 +32,7 @@ public class SetMission : MonoBehaviour
         List<NPCPosition> NPCPositionList = transform.GetComponent<NPCManager>().npcPositionList;
         foreach (NPCPosition NPCPosition in NPCPositionList){
             Transform npc = NPCPosition.npc;
-            Debug.Log(npc.name);
+            // /Debug.Log(npc.name);
             List<ScheduleDetails> npcMissionList = npc.GetComponent<NPCMovement>().scheduleData.scheduleList; 
             npcMissionList.Clear();
             MyDataObject[][] runLog = readLog("Data/RunLog/"+npc.name+".json");

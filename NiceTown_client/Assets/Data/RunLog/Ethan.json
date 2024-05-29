@@ -1,76 +1,138 @@
 [
   [
     {
-      "place": "Bed20",
-      "time": "06:00"
-    },
-    {
-      "place": "Bed21",
+      "action": "wake",
+      "moveMin": 40.39009779636588,
+      "place": "Bed23",
       "time": "07:00"
     },
     {
-      "place": "Bed23",
-      "time": "08:00"
+      "action": "study",
+      "moveMin": 31.429484564656796,
+      "place": "BookTable37",
+      "time": "07:30"
     },
     {
+      "action": "read",
+      "moveMin": 33.52566181300527,
+      "place": "BookTable39",
+      "time": "08:30"
+    },
+    {
+      "action": "work in store",
+      "moveMin": 27.91616914979561,
       "place": "Shelf4",
-      "time": "09:00"
-    },
-    {
-      "place": "Shelf7",
-      "time": "10:00"
-    },
-    {
-      "place": "Shelf6",
-      "time": "11:00"
-    },
-    {
-      "place": "Shelf7",
       "time": "12:00"
     },
     {
-      "place": "Shelf6",
+      "action": "shopping",
+      "moveMin": 3.073271872125862,
+      "place": "Shelf7",
       "time": "13:00"
     },
     {
-      "place": "Shelf7",
+      "action": "shopping",
+      "moveMin": 1.1,
+      "place": "Shelf6",
       "time": "14:00"
     },
     {
-      "place": "Shelf6",
-      "time": "15:00"
-    },
-    {
-      "place": "Shelf7",
+      "action": "work in store",
+      "moveMin": 3.6311155310730614,
+      "place": "Shelf4",
       "time": "16:00"
     },
     {
-      "place": "Shelf6",
-      "time": "17:00"
-    },
-    {
+      "action": "shopping",
+      "moveMin": 3.073271872125862,
       "place": "Shelf7",
       "time": "18:00"
     },
     {
+      "action": "shopping",
+      "moveMin": 1.1,
       "place": "Shelf6",
       "time": "19:00"
     },
     {
-      "place": "Shelf7",
-      "time": "20:00"
-    },
-    {
-      "place": "Bed24",
+      "action": "eat",
+      "moveMin": 29.498559286853315,
+      "place": "CafeTable59",
       "time": "21:00"
     },
     {
-      "place": "Bed21",
+      "action": "read",
+      "moveMin": 41.625262761933406,
+      "place": "BookTable36",
       "time": "22:00"
+    }
+  ],
+  [
+    {
+      "action": "wake",
+      "moveMin": 42.65917251893196,
+      "place": "Bed24",
+      "time": "07:00"
     },
     {
-      "place": "Bed22",
-      "time": "23:00"
+      "action": "study",
+      "moveMin": 36.17879213019694,
+      "place": "BookTable37",
+      "time": "07:30"
+    },
+    {
+      "action": "read",
+      "moveMin": 33.52566181300527,
+      "place": "BookTable39",
+      "time": "08:30"
+    },
+    {
+      "action": "work in store",
+      "moveMin": 27.91616914979561,
+      "place": "Shelf4",
+      "time": "12:00"
+    },
+    {
+      "action": "shopping",
+      "moveMin": 3.073271872125862,
+      "place": "Shelf7",
+      "time": "13:00"
+    },
+    {
+      "action": "shopping",
+      "moveMin": 1.1,
+      "place": "Shelf6",
+      "time": "14:00"
+    },
+    {
+      "action": "work in store",
+      "moveMin": 3.6311155310730614,
+      "place": "Shelf4",
+      "time": "16:00"
+    },
+    {
+      "action": "shopping",
+      "moveMin": 3.073271872125862,
+      "place": "Shelf7",
+      "time": "18:00"
+    },
+    {
+      "action": "shopping",
+      "moveMin": 1.1,
+      "place": "Shelf6",
+      "time": "19:00"
+    },
+    {
+      "action": "eat",
+      "moveMin": 29.498559286853315,
+      "place": "CafeTable59",
+      "time": "21:00"
+    },
+    {
+      "action": "read",
+      "moveMin": 41.625262761933406,
+      "place": "BookTable36",
+      "time": "22:00"
     }
   ]
 ]

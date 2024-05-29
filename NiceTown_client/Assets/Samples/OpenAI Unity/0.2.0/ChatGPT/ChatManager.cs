@@ -1,4 +1,4 @@
-using UnityEngine;
+         using UnityEngine;
 using UnityEngine.UI;
 using System.Collections.Generic;
 
@@ -35,19 +35,17 @@ namespace OpenAI
         private const string SERVER_URL = "http://127.0.0.1:5000";
         string userId = "testUesrId";
         public string userName = "佳乐";
-        public static string agentName = "Benjamin";
+        public static string agentName = "";
         string day = "1";
         string time = "14:00";
-
-
 
 
         private void Start()
         {
             button.onClick.AddListener(Chat);
-            getCurrentAction();
         }
-        public void CreateSession(){
+        public void CreateSession(string agent_name){
+            agentName = agent_name;
             StartCoroutine(Create());
             getCurrentAction();
         }
@@ -82,7 +80,7 @@ namespace OpenAI
             LayoutRebuilder.ForceRebuildLayoutImmediate(item);
             
             actionHeight += item.sizeDelta.y;
-            actionHeight += 140;
+            actionHeight += message.Content.Length*0.2f;
             Debug.Log("___" + item.sizeDelta + "___");
             actionScroll.content.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, actionHeight);
             actionScroll.verticalNormalizedPosition = 0;
@@ -100,10 +98,12 @@ namespace OpenAI
 
         private void getCurrentAction(){
             MyDataObject[][] runLog = readLog("Data/RunLog/"+agentName+".json");
+            Debug.Log(agentName);
             for (int day = 0; day < runLog.Length; day++)
             {
                 for (int index = 0; index < runLog[day].Length; index++)
                 {
+                    Debug.Log(runLog[day][index].time);
                     int hour;
                     string hourString = runLog[day][index].time.Substring(0, 2);
                     if (hourString.StartsWith("0")){
@@ -115,7 +115,11 @@ namespace OpenAI
                     string minuteString = runLog[day][index].time.Substring(3, 2);
                     int minute = int.Parse(minuteString);
                     string action = "Agent行为:   "+runLog[day][index].action;
-                    if (day+1<=TimeManager.Instance.gameDay&&hour<=TimeManager.Instance.gameHour){
+                    Debug.Log(hour);
+                    Debug.Log(action);
+                    if (day+1<=TimeManager.Instance.gameDay&&hour<=TimeManager.Instance.gameHour&&minute<=TimeManager.Instance.gameMinute ){
+
+                        Debug.Log(action);
                         var actionPob = new ChatMessage()
                         {
                             Role = "user",
@@ -125,7 +129,6 @@ namespace OpenAI
                     }
                 }
             }
-            
         }
         
 

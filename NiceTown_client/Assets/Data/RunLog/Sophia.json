@@ -1,39 +1,125 @@
 [
   [
     {
+      "action": "Sophia slowly opens her eyes, feeling a mix of excitement and uncertainty as she realizes it's time to wake up. Her strong curiosity about the day ahead and the potential for new experiences drives her to get out of bed and start the day. Despite feeling some anxiety about the uncertainties that lie ahead, she is determined to push past it and focus on the goal of engaging in more than two social activities within one day, conversing with others to accumulate writing material. Although she struggles with lack of self-discipline and procrastination, she knows that taking action is crucial to achieving her ultimate goal of becoming a successful writer. She understands the importance of social interaction for gathering diverse stories from people in different professions, so she is motivated to push herself to engage with others despite her reserved nature. As she begins her day, she plans to dedicate substantial time to reading and writing, preparing herself to exchange creative experiences with like-minded friends in the small college literature discussion groups she regularly participates in.",
+      "moveMin": 27.222509068783502,
       "place": "Bed24",
-      "time": "06:00"
-    },
-    {
-      "place": "CafeTable62",
       "time": "08:00"
     },
     {
-      "place": "BookTable13",
+      "action": "Sophia sits at the caf\u00e9 table in her house, feeling a mix of excitement and nervousness as she prepares to eat breakfast. Despite her innate tendency towards procrastination and lack of self-discipline, she is determined to follow through with this simple task as part of her plan for the day. The goal of engaging in more social activities and conversing with others to gather writing material lingers at the back of her mind, driving her to push past her reservations and focus on the present moment. As she takes each bite, she silently reminds herself of the bigger picture \u2013 the ambition to become a successful writer \u2013 and how every action, no matter how small, contributes to that dream. Emotions of hope, uncertainty, and a hint of self-doubt swirl within her, fueling her resolve to make the most out of the day ahead.",
+      "moveMin": 4.013103537164223,
+      "place": "CafeTable60",
       "time": "09:00"
     },
     {
-      "place": "CafeTable2",
+      "action": "Sophia arrives at the Booktable in college at 10:00, feeling a mix of excitement and nervousness as she prepares to study. Despite her tendency towards procrastination and lack of self-discipline, she is determined to follow through with this task as part of her plan for the day. The goal of engaging in more social activities and conversing with others to gather writing material lingers at the back of her mind, driving her to push past her reservations and focus on the present moment. Emotions of hope, uncertainty, and a hint of self-doubt swirl within her, fueling her resolve to make the most out of the day ahead.",
+      "moveMin": 16.868906307167634,
+      "place": "BookTable10",
+      "time": "10:00"
+    },
+    {
+      "action": "Sophia swiftly walks towards the Cafetable at the college, feeling a mix of nervousness and excitement as she approaches her planned social interaction with Ava. Despite her reserved nature and tendency towards self-doubt, she is determined to push past these barriers and engage in a meaningful conversation to gather writing material. The goal of actively participating in social activities to spark imagination and contribute to her dream of becoming a successful writer propels her forward, despite her underlying uncertainties. As she nears the Cafetable, emotions of hope, anticipation, and a hint of trepidation swirl within her, fueling her resolve to take a step towards achieving her goal.",
+      "moveMin": 5.889185003037348,
+      "place": "BookTable2",
       "time": "12:00"
     },
     {
-      "place": "CafeTable5",
+      "action": "Sophia sits at the Booktable in college, feeling a mix of determination and mild anxiety as she prepares to study. Despite her tendency towards procrastination and lack of self-discipline, she is determined to follow through with this task as part of her plan for the day. The goal of engaging in more social activities and conversing with others to gather writing material lingers at the back of her mind, driving her to push past her reservations and focus on the present moment. Emotions of hope, uncertainty, and a hint of self-doubt swirl within her, fueling her resolve to make the most out of the day ahead.",
+      "moveMin": 5.4083269131959835,
+      "place": "BookTable9",
       "time": "14:00"
     },
     {
-      "place": "CafeTable8",
+      "action": "Sophia energetically walks towards the Cafetable in college, feeling a mix of nervousness and excitement as she approaches her planned social interaction with Ava. Despite her reserved nature and tendency towards self-doubt, she is determined to push past these barriers and engage in a meaningful conversation to gather writing material. The goal of actively participating in social activities to spark imagination and contribute to her dream of becoming a successful writer propels her forward, despite her underlying uncertainties. As she nears the Cafetable, emotions of hope, anticipation, and a hint of trepidation swirl within her, fueling her resolve to take a step towards achieving her goal.",
+      "moveMin": 5.4083269131959835,
+      "place": "BookTable2",
       "time": "16:00"
     },
     {
-      "place": "BookTable13",
+      "action": "Sophia arrives at the Booktable in college at 18:00, feeling a mix of determination and anticipation as she prepares to read. Despite her tendency towards procrastination and lack of self-discipline, she is determined to follow through with this task as part of her plan for the day. The goal of engaging in more social activities and conversing with others to gather writing material lingers at the back of her mind, driving her to push past her reservations and focus on the present moment. Emotions of hope, uncertainty, and a hint of self-doubt swirl within her, fueling her resolve to make the most out of the day ahead.",
+      "moveMin": 6.435060217278467,
+      "place": "BookTable11",
       "time": "18:00"
     },
     {
-      "place": "BookTable19",
-      "time": "20:00"
+      "action": "Sophia arrives at the Cafetable in college at 19:00, feeling a mix of anticipation and exhaustion as she prepares to relax. Despite her inherent tendency to focus on her goals, she understands the importance of taking time to unwind and recharge. The goal of relaxation lingers at the back of her mind, driving her to slow down and appreciate the present moment. Emotions of hope, fatigue, and a hint of satisfaction swirl within her, fueling her resolve to take a break and rejuvenate after a day filled with determination and uncertainty.",
+      "moveMin": 5.664141594275341,
+      "place": "CafeTable4",
+      "time": "19:00"
     },
     {
-      "place": "BookTable13",
+      "action": "Sophia arrives at the Booktable in her house at 21:00, feeling a mix of determination and uncertainty as she prepares to write. Despite her tendency towards procrastination and lack of self-discipline, she is determined to follow through with this task as part of her current plan. The goal of actively engaging in writing to contribute to her dream of becoming a successful writer propels her forward, despite her inner conflicts. As she sits down at the Booktable, emotions of hope, anticipation, and a hint of self-doubt swirl within her, fueling her resolve to take a step towards achieving her goal.",
+      "moveMin": 24.6661711661944,
+      "place": "BookTable39",
+      "time": "21:00"
+    },
+    {
+      "action": "Sophia walks towards her house, feeling a mix of exhaustion and contentment as she approaches her bed. Despite her tendency towards procrastination and lack of self-discipline, she is determined to follow through with the current plan of sleeping at 22:00. The goal of resting and rejuvenating after a long day filled with determination and uncertainty lingers in her mind, driving her to slow down and appreciate the present moment. Emotions of fatigue, satisfaction, and a hint of anticipation swirl within her, fueling her resolve to unwind and recharge for the challenges of tomorrow.",
+      "moveMin": 49.34017126034323,
+      "place": "Bed19",
+      "time": "22:00"
+    }
+  ],
+  [
+    {
+      "action": "Sophia begins to stir from her sleep at 08:00, as per her current plan. She slowly opens her eyes, feeling a mix of excitement and anxiety about the day ahead. Despite her hesitations, she knows that waking up on time is a crucial step towards the discipline she aspires to achieve. As she stretches and gets out of bed, a palpable blend of hope and uncertainty accompanies her every move. Her desire to start the day off right, despite her lingering doubts, is a testament to her determination to foster positive habits.",
+      "moveMin": 72.16456886866297,
+      "place": "Bed4",
+      "time": "08:00"
+    },
+    {
+      "action": "At 09:00, Sophia heads to the Cafetable in the dormitory to eat, as per her current plan. Despite her lingering doubts and uncertainties, she maintains a determined approach, recognizing that this small action contributes to the discipline she aspires to achieve. The act of eating becomes a symbolic testament to her quiet defiance against procrastination and her desire for positive change. As she sits down to eat, a mix of hope and trepidation accompanies her, reflecting her ongoing battle with self-doubt and her subtle, noticeable shifts towards cautious optimism.",
+      "moveMin": 9.002777349240622,
+      "place": "CafeTable11",
+      "time": "09:00"
+    },
+    {
+      "action": "It is now 10:00, and Sophia is currently at the College's Booktable to study, as per her current plan. Despite her ongoing battle with self-doubt and hesitations, she has managed to push herself to this designated spot, reflecting her determination to foster positive habits. As she settles in to study, a mix of cautious optimism and subtle trepidation accompanies her, underscoring her journey towards disciplined and confident growth.",
+      "moveMin": 15.373353570382747,
+      "place": "BookTable11",
+      "time": "10:00"
+    },
+    {
+      "action": "Sophia heads to the Cafetable at the College as per her current plan at 12:00. Despite her ongoing battle with self-doubt and hesitations, she maintains a determined approach, recognizing that this social interaction is a small but significant step towards fostering deeper connections and fueling her creative ambition. As she sits down with Zoe, a mix of hope and trepidation accompanies her, reflecting her ongoing struggle with self-doubt and her subtle, noticeable shifts towards cautious optimism.",
+      "moveMin": 9.060905032059434,
+      "place": "BookTable1",
+      "time": "12:00"
+    },
+    {
+      "action": "Sophia arrives at the College's Booktable at 14:00 to study, as per her current plan. Despite her ongoing battle with self-doubt and hesitations, she maintains a determined approach, recognizing that this study session is a crucial step towards fostering discipline and achieving her desired future personality. As she settles in to study, a mix of cautious optimism and subtle trepidation accompanies her, underscoring her journey towards becoming a more disciplined and confident writer.",
+      "moveMin": 8.916978187704622,
+      "place": "BookTable10",
+      "time": "14:00"
+    },
+    {
+      "action": "Sophia plans to head to the College's Cafetable at 16:00 to engage in a social activity with Zoe, as per her current plan. Despite her ongoing battle with self-doubt and hesitations, she maintains a determined approach, recognizing that this social interaction is a small but significant step towards fostering deeper connections and fueling her creative ambition. As she sits down with Zoe, a mix of hope and trepidation accompanies her, reflecting her ongoing struggle with self-doubt and her subtle, noticeable shifts towards cautious optimism.",
+      "moveMin": 8.916978187704622,
+      "place": "BookTable1",
+      "time": "16:00"
+    },
+    {
+      "action": "Sophia arrives at the College's Booktable at 18:00 to study, as per her current plan. Despite the ongoing battle with self-doubt and hesitations, she maintains a determined approach, recognizing that this study session is a crucial step towards fostering discipline and achieving her desired future personality. As she settles in to study, a mix of cautious optimism and subtle trepidation accompanies her, underscoring her journey towards becoming a more disciplined and confident writer.",
+      "moveMin": 9.060905032059434,
+      "place": "BookTable11",
+      "time": "18:00"
+    },
+    {
+      "action": "Sophia plans to head to the College's Cafetable at 19:00 to relax, as per her current plan. Despite her ongoing battle with self-doubt and hesitations, she maintains a determined and cautious approach, recognizing that this relaxation time is essential for sustaining her mental and emotional well-being. As she sits down at the Cafetable, a mix of quiet satisfaction and lingering uncertainty accompanies her, reflecting her acknowledgment of the importance of balance amidst her personal growth journey.",
+      "moveMin": 4.18867520822515,
+      "place": "CafeTable3",
+      "time": "19:00"
+    },
+    {
+      "action": "Sophia plans to head to the Booktable at her house at 21:00 to study, as per her current plan. Despite her lingering doubts and anxieties, she approaches this study session with determination, recognizing that this is a crucial step towards fostering discipline and achieving her desired future personality. As she settles in to study, a mix of cautious optimism and subtle trepidation accompanies her, underscoring her ongoing journey towards becoming a more disciplined and confident writer.",
+      "moveMin": 25.581096536309776,
+      "place": "BookTable39",
+      "time": "21:00"
+    },
+    {
+      "action": "Sophia prepares to wind down and go to bed at 22:00, following her current plan. Despite the day's battles and accomplishments, she approaches this time with a mix of fatigue and quiet contentment. As she settles into bed, a sense of satisfaction at cherishing her small victories while acknowledging the persistent undercurrent of self-doubt accompanies her, hinting at the disciplined and confident writer she aspires to become.",
+      "moveMin": 49.34017126034323,
+      "place": "Bed19",
       "time": "22:00"
     }
   ]

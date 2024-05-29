@@ -1,72 +1,150 @@
 [
   [
     {
-      "place": "Bed18",
-      "time": "07:00"
+      "action": "wake up",
+      "moveMin": 45.26093790455518,
+      "place": "Bed23",
+      "time": "06:00"
     },
     {
-      "place": "Bed24",
+      "action": "daily reading",
+      "moveMin": 2.6,
+      "place": "BookTable38",
+      "time": "06:30"
+    },
+    {
+      "action": "breakfast",
+      "moveMin": 9.945979087048192,
+      "place": "CafeTable60",
       "time": "08:00"
     },
     {
-      "place": "Bed20",
+      "action": "study",
+      "moveMin": 18.40108692441835,
+      "place": "BookTable12",
       "time": "09:00"
     },
     {
-      "place": "BookTable38",
-      "time": "10:00"
-    },
-    {
-      "place": "BookTable37",
-      "time": "11:00"
-    },
-    {
-      "place": "CafeTable61",
+      "action": "lunch",
+      "moveMin": 10.239140588936163,
+      "place": "CafeTable4",
       "time": "12:00"
     },
     {
-      "place": "CafeTable4",
-      "time": "13:00"
-    },
-    {
-      "place": "BookTable12",
-      "time": "14:00"
-    },
-    {
-      "place": "BookTable14",
+      "action": "plan book club theme and book list",
+      "moveMin": 9.119347564382005,
+      "place": "BookTable13",
       "time": "15:00"
     },
     {
-      "place": "CafeTable4",
-      "time": "16:00"
-    },
-    {
-      "place": "Chair5",
+      "action": "socialize with classmates",
+      "moveMin": 8.930985387962519,
+      "place": "CafeTable5",
       "time": "17:00"
     },
     {
-      "place": "Fit13",
+      "action": "yoga and exercise",
+      "moveMin": 41.385323485506305,
+      "place": "Fit2",
       "time": "18:00"
     },
     {
+      "action": "dinner",
+      "moveMin": 21.099111355694582,
       "place": "FoodTable24",
       "time": "19:00"
     },
     {
+      "action": "philosophical reading",
+      "moveMin": 25.426610076846657,
       "place": "BookTable39",
       "time": "20:00"
     },
     {
+      "action": "writing",
+      "moveMin": 4.700265949922408,
       "place": "BookTable38",
       "time": "21:00"
     },
     {
-      "place": "Bed24",
+      "action": "relax and prepare for sleep",
+      "moveMin": 2.6,
+      "place": "Bed23",
       "time": "22:00"
+    }
+  ],
+  [
+    {
+      "action": "wake up",
+      "moveMin": 57.747251016823306,
+      "place": "Bed17",
+      "time": "06:00"
     },
     {
-      "place": "Bed21",
-      "time": "23:00"
+      "action": "daily reading",
+      "moveMin": 55.518330306305145,
+      "place": "BookTable38",
+      "time": "06:30"
+    },
+    {
+      "action": "breakfast",
+      "moveMin": 9.945979087048192,
+      "place": "CafeTable60",
+      "time": "08:00"
+    },
+    {
+      "action": "study",
+      "moveMin": 18.40108692441835,
+      "place": "BookTable12",
+      "time": "09:00"
+    },
+    {
+      "action": "lunch",
+      "moveMin": 8.201371836467361,
+      "place": "CafeTable3",
+      "time": "12:00"
+    },
+    {
+      "action": "plan book club theme and book list",
+      "moveMin": 7.240511031688302,
+      "place": "BookTable9",
+      "time": "15:00"
+    },
+    {
+      "action": "socialize with classmates",
+      "moveMin": 8.870315665183512,
+      "place": "CafeTable5",
+      "time": "17:00"
+    },
+    {
+      "action": "yoga and exercise",
+      "moveMin": 41.385323485506305,
+      "place": "Fit2",
+      "time": "18:00"
+    },
+    {
+      "action": "dinner",
+      "moveMin": 21.099111355694582,
+      "place": "FoodTable24",
+      "time": "19:00"
+    },
+    {
+      "action": "philosophical reading",
+      "moveMin": 25.426610076846657,
+      "place": "BookTable39",
+      "time": "20:00"
+    },
+    {
+      "action": "writing",
+      "moveMin": 4.700265949922408,
+      "place": "BookTable38",
+      "time": "21:00"
+    },
+    {
+      "action": "relax and prepare for sleep",
+      "moveMin": 2.6,
+      "place": "Bed23",
+      "time": "22:00"
     }
   ]
 ]
