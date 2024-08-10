@@ -30,7 +30,7 @@ public class NPCManager : Singleton<NPCManager>
     {
         foreach (var character in npcPositionList)
         {
-            character.npc.position = character.position;
+            //character.npc.position = character.position;
             character.npc.GetComponent<NPCMovement>().currentScene = character.startScene;
         }
     }

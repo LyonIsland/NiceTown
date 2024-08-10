@@ -80,7 +80,7 @@ namespace OpenAI
             LayoutRebuilder.ForceRebuildLayoutImmediate(item);
             
             actionHeight += item.sizeDelta.y;
-            actionHeight += message.Content.Length*0.2f;
+            actionHeight += message.Content.Length*2f;
             Debug.Log("___" + item.sizeDelta + "___");
             actionScroll.content.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, actionHeight);
             actionScroll.verticalNormalizedPosition = 0;

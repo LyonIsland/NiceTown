@@ -94,6 +94,8 @@ public class NPCMovement : MonoBehaviour, ISaveable
 
     private void Start()
     {
+        Debug.Log(scheduleData.scheduleList[0].targetGridPosition);
+        transform.position = new Vector3(scheduleData.scheduleList[0].targetGridPosition.x,scheduleData.scheduleList[0].targetGridPosition.y,0);
         //ISaveable saveable = this;
         //saveable.RegisterSaveable();
         // scheduleData.scheduleList.Add(new ScheduleDetails(0, 15, 0, 0, Season.春天, "testScene", new Vector2Int(10,20), null, false));
